@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Deskbly Admin</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0 }
+  :root {
+    --orange: #f97316;
+    --orange-d: #ea6c0a;
+    --bg: #fafaf9;
+    --surface: #ffffff;
+    --border: #e7e5e4;
+    --text: #1c1917;
+    --muted: #78716c;
+    --red: #ef4444;
+    --green: #22c55e;
+  }
+  body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh }
+
+  /* ── Login ── */
+  #login-screen {
+    display: flex; align-items: center; justify-content: center; min-height: 100vh;
+  }
+  .login-box {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    padding: 40px; width: 360px; box-shadow: 0 4px 24px rgba(0,0,0,.06);
+  }
+  .login-box h1 { font-size: 1.5rem; margin-bottom: 6px }
+  .login-box p { color: var(--muted); font-size: .875rem; margin-bottom: 28px }
+  .error-msg { background: #fef2f2; color: var(--red); border: 1px solid #fecaca; padding: 10px 14px; border-radius: 8px; font-size: .85rem; margin-bottom: 16px }
+
+  /* ── App shell ── */
+  #app { display: none }
+  .topbar {
+    background: var(--text); color: #fff; height: 52px; display: flex; align-items: center;
+    padding: 0 24px; gap: 12px; position: sticky; top: 0; z-index: 10;
+  }
+  .topbar .logo { font-weight: 700; font-size: 1rem; color: var(--orange) }
+  .topbar .spacer { flex: 1 }
+  .topbar button { background: transparent; border: 1px solid rgba(255,255,255,.2); color: rgba(255,255,255,.7); padding: 5px 14px; border-radius: 8px; cursor: pointer; font-size: .8rem }
+  .topbar button:hover { border-color: rgba(255,255,255,.5); color: #fff }
+
+  .layout { display: flex; height: calc(100vh - 52px) }
+
+  /* ── Sidebar ── */
+  .sidebar {
+    width: 240px; background: var(--surface); border-right: 1px solid var(--border);
+    padding: 16px 0; flex-shrink: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 2px;
+  }
+  .sidebar-btn {
+    display: flex; align-items: center; gap: 10px; padding: 10px 20px; cursor: pointer;
+    font-size: .875rem; color: var(--muted); background: none; border: none; width: 100%; text-align: left;
+    border-radius: 0; transition: background .15s;
+  }
+  .sidebar-btn:hover { background: var(--bg); color: var(--text) }
+  .sidebar-btn.active { background: #fff7ed; color: var(--orange); font-weight: 600 }
+  .sidebar-label { padding: 16px 20px 6px; font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+
+  /* ── Main ── */
+  .main { flex: 1; overflow-y: auto; padding: 28px 32px }
+  .page { display: none }
+  .page.active { display: block }
+
+  .page-header { margin-bottom: 24px; display: flex; align-items: center; gap: 16px }
+  .page-header h2 { font-size: 1.4rem; font-weight: 700 }
+  .badge { background: var(--orange); color: #fff; border-radius: 20px; padding: 2px 10px; font-size: .75rem; font-weight: 600 }
+
+  /* ── Form ── */
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px }
+  .form-full { grid-column: 1 / -1 }
+  label { display: block; font-size: .8rem; font-weight: 600; color: var(--muted); margin-bottom: 5px; text-transform: uppercase; letter-spacing: .04em }
+  input[type=text], input[type=date], input[type=color], select, textarea {
+    width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px;
+    font-size: .875rem; background: var(--surface); color: var(--text); outline: none;
+    transition: border .15s; font-family: inherit;
+  }
+  input[type=text]:focus, input[type=date]:focus, select:focus, textarea:focus { border-color: var(--orange) }
+  textarea { resize: vertical; line-height: 1.6 }
+  .hint { font-size: .75rem; color: var(--muted); margin-top: 4px }
+
+  .toggle-row { display: flex; align-items: center; gap: 10px; padding: 10px 0 }
+  .toggle { position: relative; width: 40px; height: 22px }
+  .toggle input { opacity: 0; width: 0; height: 0 }
+  .slider { position: absolute; inset: 0; background: var(--border); border-radius: 22px; cursor: pointer; transition: .2s }
+  .slider:before { content: ''; position: absolute; height: 16px; width: 16px; left: 3px; bottom: 3px; background: white; border-radius: 50%; transition: .2s }
+  input:checked + .slider { background: var(--orange) }
+  input:checked + .slider:before { transform: translateX(18px) }
+
+  /* ── Buttons ── */
+  .btn { padding: 10px 20px; border-radius: 8px; font-size: .875rem; font-weight: 600; cursor: pointer; border: none; transition: .15s; display: inline-flex; align-items: center; gap: 6px }
+  .btn-primary { background: var(--orange); color: #fff }
+  .btn-primary:hover { background: var(--orange-d) }
+  .btn-secondary { background: var(--bg); color: var(--text); border: 1px solid var(--border) }
+  .btn-secondary:hover { border-color: #a8a29e }
+  .btn-danger { background: #fef2f2; color: var(--red); border: 1px solid #fecaca }
+  .btn-danger:hover { background: #fee2e2 }
+  .btn-sm { padding: 5px 12px; font-size: .78rem }
+  .form-actions { display: flex; gap: 10px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--border) }
+
+  /* ── Article list ── */
+  .search-bar { margin-bottom: 20px }
+  .search-bar input { max-width: 320px }
+  .articles-list { display: flex; flex-direction: column; gap: 10px }
+  .article-row {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px 20px; display: flex; align-items: center; gap: 16px;
+  }
+  .article-row:hover { border-color: #d6d3d1 }
+  .article-meta { flex: 1; min-width: 0 }
+  .article-meta h3 { font-size: .95rem; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+  .article-meta p { font-size: .78rem; color: var(--muted) }
+  .article-actions { display: flex; gap: 8px; flex-shrink: 0 }
+  .cat-pill { display: inline-block; font-size: .7rem; font-weight: 600; padding: 2px 8px; border-radius: 20px; text-transform: capitalize; margin-right: 6px }
+  .cat-workspace { background: #eff6ff; color: #2563eb }
+  .cat-gear { background: #f0fdf4; color: #16a34a }
+  .cat-productivity { background: #fdf4ff; color: #9333ea }
+  .featured-star { color: var(--orange); font-size: .85rem }
+
+  /* ── Toast ── */
+  #toast {
+    position: fixed; bottom: 24px; right: 24px; background: var(--text); color: #fff;
+    padding: 12px 20px; border-radius: 10px; font-size: .875rem; opacity: 0;
+    transition: opacity .3s; z-index: 100; max-width: 320px;
+  }
+  #toast.show { opacity: 1 }
+  #toast.success { background: #14532d }
+  #toast.error { background: #7f1d1d }
+
+  /* ── Preview ── */
+  .preview-pane { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-top: 12px; font-size: .875rem; line-height: 1.7; min-height: 120px; max-height: 400px; overflow-y: auto }
+  .preview-pane h2 { font-size: 1.1rem; font-weight: 700; margin: 16px 0 6px; color: var(--text) }
+  .preview-pane p { margin-bottom: 10px; color: #44403c }
+  .preview-pane ul, .preview-pane ol { margin: 6px 0 10px 20px }
+  .preview-pane li { margin-bottom: 4px }
+  .preview-pane blockquote { border-left: 3px solid var(--orange); padding-left: 12px; color: var(--muted); margin: 10px 0 }
+  .preview-pane code { background: #f5f5f4; padding: 1px 5px; border-radius: 4px; font-size: .85em }
+  .preview-pane strong { font-weight: 700 }
+  .preview-pane em { font-style: italic }
+  .preview-toggle { font-size: .78rem; color: var(--orange); cursor: pointer; text-decoration: underline; margin-top: 4px; display: inline-block }
+
+  .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 28px }
+  .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px }
+  .stat-card .num { font-size: 2rem; font-weight: 700; color: var(--orange) }
+  .stat-card .lbl { font-size: .8rem; color: var(--muted); margin-top: 2px }
+  .empty { text-align: center; padding: 60px 20px; color: var(--muted) }
+  .empty p { margin-top: 8px; font-size: .875rem }
+</style>
+</head>
+<body>
+
+<!-- ── Login ── -->
+<div id="login-screen">
+  <div class="login-box">
+    <h1>Deskbly Admin</h1>
+    <p>Sign in to manage your articles</p>
+    <div id="login-error" class="error-msg" style="display:none">Wrong username or password.</div>
+    <form method="POST" action="/login">
+      <div style="margin-bottom:14px">
+        <label>Username</label>
+        <input type="text" name="username" autocomplete="username" required />
+      </div>
+      <div style="margin-bottom:20px">
+        <label>Password</label>
+        <input type="password" name="password" autocomplete="current-password" required />
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center">Sign in</button>
+    </form>
+  </div>
+</div>
+
+<!-- ── App ── -->
+<div id="app">
+  <div class="topbar">
+    <span class="logo">Deskbly</span>
+    <span style="font-size:.75rem; color: rgba(255,255,255,.4)">Admin</span>
+    <div class="spacer"></div>
+    <form method="POST" action="/logout" style="margin:0">
+      <button type="submit">Sign out</button>
+    </form>
+  </div>
+
+  <div class="layout">
+    <div class="sidebar">
+      <div class="sidebar-label">Content</div>
+      <button class="sidebar-btn active" onclick="showPage('dashboard')">
+        📊 Dashboard
+      </button>
+      <button class="sidebar-btn" onclick="showPage('articles')">
+        📄 All Articles
+      </button>
+      <button class="sidebar-btn" onclick="resetForm(); showPage('new')">
+        ✏️ Write Article
+      </button>
+    </div>
+
+    <div class="main">
+
+      <!-- Dashboard -->
+      <div id="page-dashboard" class="page active">
+        <div class="page-header"><h2>Dashboard</h2></div>
+        <div class="stat-grid">
+          <div class="stat-card"><div class="num" id="stat-total">—</div><div class="lbl">Total articles</div></div>
+          <div class="stat-card"><div class="num" id="stat-featured">—</div><div class="lbl">Featured</div></div>
+          <div class="stat-card"><div class="num" id="stat-categories">—</div><div class="lbl">Categories</div></div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px">
+          <h3 style="font-size:.95rem;font-weight:700;margin-bottom:14px">Recent articles</h3>
+          <div id="recent-list"></div>
+        </div>
+      </div>
+
+      <!-- All Articles -->
+      <div id="page-articles" class="page">
+        <div class="page-header">
+          <h2>All Articles</h2>
+          <span class="badge" id="articles-count">0</span>
+          <div style="flex:1"></div>
+          <button class="btn btn-primary btn-sm" onclick="resetForm(); showPage('new')">+ New article</button>
+        </div>
+        <div class="search-bar">
+          <input type="text" id="article-search" placeholder="Filter by title…" oninput="filterArticles()" />
+        </div>
+        <div class="articles-list" id="articles-list"></div>
+      </div>
+
+      <!-- New / Edit Article -->
+      <div id="page-new" class="page">
+        <div class="page-header">
+          <h2 id="form-title">Write Article</h2>
+        </div>
+        <input type="hidden" id="edit-slug" value="" />
+        <div class="form-grid">
+          <div class="form-full">
+            <label>Title *</label>
+            <input type="text" id="f-title" placeholder="e.g. The Best Standing Desks of 2026" oninput="autoSlug()" />
+          </div>
+          <div>
+            <label>Slug (URL)</label>
+            <input type="text" id="f-slug" placeholder="auto-generated" />
+            <div class="hint">deskbly.com/blog/<span id="slug-preview">...</span></div>
+          </div>
+          <div>
+            <label>Category</label>
+            <select id="f-category">
+              <option value="workspace">Workspace</option>
+              <option value="gear">Gear</option>
+              <option value="productivity">Productivity</option>
+            </select>
+          </div>
+          <div>
+            <label>Author</label>
+            <select id="f-author" onchange="updateAuthorRole()">
+              <option value="Mia Collins" data-role="Workspace Designer">Mia Collins</option>
+              <option value="James Park" data-role="Tech Reviewer">James Park</option>
+              <option value="Sara Osei" data-role="Productivity Researcher">Sara Osei</option>
+              <option value="Tom Hadley" data-role="Ergonomics Specialist">Tom Hadley</option>
+            </select>
+          </div>
+          <div>
+            <label>Author Role</label>
+            <input type="text" id="f-authorRole" value="Workspace Designer" />
+          </div>
+          <div>
+            <label>Date</label>
+            <input type="date" id="f-date" />
+          </div>
+          <div>
+            <label>Read Time</label>
+            <input type="text" id="f-readTime" placeholder="e.g. 6 min read" />
+          </div>
+          <div>
+            <label>Cover Color</label>
+            <input type="color" id="f-coverColor" value="#f97316" style="height:42px;padding:4px 6px" />
+          </div>
+          <div>
+            <label>Image URL</label>
+            <input type="text" id="f-image" placeholder="https://images.unsplash.com/..." />
+          </div>
+          <div class="form-full">
+            <label>Tags (comma-separated)</label>
+            <input type="text" id="f-tags" placeholder="ergonomics, standing-desk, health" />
+          </div>
+          <div class="form-full">
+            <label>Excerpt</label>
+            <textarea id="f-excerpt" rows="3" placeholder="One or two sentences summarising the article…"></textarea>
+          </div>
+          <div class="form-full">
+            <label>Content *</label>
+            <div class="hint" style="margin-bottom:6px">
+              Use <code>## Heading</code> for sections · <code>**bold**</code> · <code>*italic*</code> · <code>- item</code> for lists · <code>&gt; blockquote</code>
+            </div>
+            <textarea id="f-content" rows="22" placeholder="## Introduction&#10;Write your article here…&#10;&#10;## Section Title&#10;Paragraph text…&#10;&#10;- Bullet point&#10;- Another point&#10;&#10;&gt; A quote or tip here"></textarea>
+            <span class="preview-toggle" onclick="togglePreview()">Preview ↓</span>
+            <div id="preview-pane" class="preview-pane" style="display:none"></div>
+          </div>
+          <div class="form-full">
+            <div class="toggle-row">
+              <label class="toggle">
+                <input type="checkbox" id="f-featured" />
+                <span class="slider"></span>
+              </label>
+              <span style="font-size:.875rem; font-weight:500">Featured article</span>
+            </div>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-primary" onclick="saveArticle()">Save article</button>
+          <button class="btn btn-secondary" onclick="resetForm(); showPage('articles')">Cancel</button>
+          <div style="flex:1"></div>
+          <div id="delete-btn-wrap" style="display:none">
+            <button class="btn btn-danger btn-sm" onclick="deleteArticle()">Delete article</button>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /main -->
+  </div><!-- /layout -->
+</div><!-- /app -->
+
+<div id="toast"></div>
+
+<script>
+const AUTH = '__AUTH__'
+
+if (AUTH === 'true') {
+  document.getElementById('login-screen').style.display = 'none'
+  document.getElementById('app').style.display = 'block'
+  loadAll()
+} else {
+  document.getElementById('login-screen').style.display = 'flex'
+  document.getElementById('app').style.display = 'none'
+  const params = new URLSearchParams(location.search)
+  if (params.get('error')) document.getElementById('login-error').style.display = 'block'
+}
+
+let allPosts = []
+
+async function loadAll() {
+  try {
+    const res = await fetch('/api/posts')
+    allPosts = await res.json()
+    renderDashboard()
+    renderArticleList()
+  } catch (e) {
+    toast('Failed to load posts: ' + e.message, 'error')
+  }
+}
+
+// ── Navigation ──────────────────────────────────────────────────────────────
+
+function showPage(name) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'))
+  document.querySelectorAll('.sidebar-btn').forEach(b => b.classList.remove('active'))
+  document.getElementById('page-' + name).classList.add('active')
+  document.querySelector(`.sidebar-btn[onclick="showPage('${name}')"]`).classList.add('active')
+  if (name === 'new' && !document.getElementById('edit-slug').value) {
+    document.getElementById('form-title').textContent = 'Write Article'
+    document.getElementById('delete-btn-wrap').style.display = 'none'
+  }
+}
+
+// ── Dashboard ───────────────────────────────────────────────────────────────
+
+function renderDashboard() {
+  document.getElementById('stat-total').textContent = allPosts.length
+  document.getElementById('stat-featured').textContent = allPosts.filter(p => p.featured).length
+  const cats = new Set(allPosts.map(p => p.category))
+  document.getElementById('stat-categories').textContent = cats.size
+
+  const recent = [...allPosts].sort((a,b) => new Date(b.date) - new Date(a.date)).slice(0, 5)
+  document.getElementById('recent-list').innerHTML = recent.map(p => `
+    <div style="display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--border)">
+      <span class="cat-pill cat-${p.category}">${p.category}</span>
+      <span style="flex:1;font-size:.875rem;font-weight:500">${p.title}</span>
+      <span style="font-size:.78rem;color:var(--muted)">${p.date}</span>
+      <button class="btn btn-secondary btn-sm" onclick="editPost('${p.slug}')">Edit</button>
+    </div>
+  `).join('')
+}
+
+// ── Article list ─────────────────────────────────────────────────────────────
+
+function renderArticleList(filter = '') {
+  const posts = filter
+    ? allPosts.filter(p => p.title.toLowerCase().includes(filter.toLowerCase()))
+    : allPosts
+  document.getElementById('articles-count').textContent = allPosts.length
+  document.getElementById('articles-list').innerHTML = posts.length === 0
+    ? `<div class="empty">📭<p>No articles found</p></div>`
+    : posts.map(p => `
+      <div class="article-row">
+        <div class="article-meta">
+          <h3>${p.featured ? '<span class="featured-star">★ </span>' : ''}${p.title}</h3>
+          <p>
+            <span class="cat-pill cat-${p.category}">${p.category}</span>
+            ${p.author} · ${p.date} · ${p.readTime}
+          </p>
+        </div>
+        <div class="article-actions">
+          <button class="btn btn-secondary btn-sm" onclick="editPost('${p.slug}')">Edit</button>
+          <a href="https://deskbly.com/blog/${p.slug}" target="_blank" class="btn btn-secondary btn-sm" style="text-decoration:none">View</a>
+        </div>
+      </div>
+    `).join('')
+}
+
+function filterArticles() {
+  renderArticleList(document.getElementById('article-search').value)
+}
+
+// ── Form helpers ─────────────────────────────────────────────────────────────
+
+function slugify(str) {
+  return str.toLowerCase().replace(/[^a-z0-9\s-]/g, '').trim().replace(/\s+/g, '-').replace(/-+/g, '-')
+}
+
+function autoSlug() {
+  if (document.getElementById('edit-slug').value) return // don't overwrite in edit mode
+  const title = document.getElementById('f-title').value
+  const s = slugify(title)
+  document.getElementById('f-slug').value = s
+  document.getElementById('slug-preview').textContent = s || '...'
+}
+
+function updateAuthorRole() {
+  const sel = document.getElementById('f-author')
+  const opt = sel.options[sel.selectedIndex]
+  document.getElementById('f-authorRole').value = opt.dataset.role || ''
+}
+
+function setDate(val) {
+  document.getElementById('f-date').value = val || new Date().toISOString().split('T')[0]
+}
+
+// ── Preview ──────────────────────────────────────────────────────────────────
+
+function parseContent(raw) {
+  const lines = raw.split('\n')
+  let html = ''
+  let inList = false
+  for (const line of lines) {
+    const l = line.trim()
+    if (!l) { if (inList) { html += '</ul>'; inList = false } continue }
+    if (l.startsWith('## ')) { if (inList) { html += '</ul>'; inList = false } html += `<h2>${fmt(l.slice(3))}</h2>`; continue }
+    if (l.startsWith('> ')) { if (inList) { html += '</ul>'; inList = false } html += `<blockquote>${fmt(l.slice(2))}</blockquote>`; continue }
+    if (l.startsWith('- ')) { if (!inList) { html += '<ul>'; inList = true } html += `<li>${fmt(l.slice(2))}</li>`; continue }
+    if (inList) { html += '</ul>'; inList = false }
+    html += `<p>${fmt(l)}</p>`
+  }
+  if (inList) html += '</ul>'
+  return html
+}
+
+function fmt(t) {
+  return t
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/`(.+?)`/g, '<code>$1</code>')
+}
+
+let previewOpen = false
+function togglePreview() {
+  previewOpen = !previewOpen
+  const pane = document.getElementById('preview-pane')
+  if (previewOpen) {
+    pane.style.display = 'block'
+    pane.innerHTML = parseContent(document.getElementById('f-content').value)
+    document.querySelector('.preview-toggle').textContent = 'Hide preview ↑'
+  } else {
+    pane.style.display = 'none'
+    document.querySelector('.preview-toggle').textContent = 'Preview ↓'
+  }
+}
+
+// ── Save / Edit / Delete ─────────────────────────────────────────────────────
+
+function resetForm() {
+  document.getElementById('edit-slug').value = ''
+  document.getElementById('f-title').value = ''
+  document.getElementById('f-slug').value = ''
+  document.getElementById('f-excerpt').value = ''
+  document.getElementById('f-content').value = ''
+  document.getElementById('f-category').value = 'workspace'
+  document.getElementById('f-author').value = 'Mia Collins'
+  document.getElementById('f-authorRole').value = 'Workspace Designer'
+  document.getElementById('f-tags').value = ''
+  document.getElementById('f-readTime').value = ''
+  document.getElementById('f-image').value = ''
+  document.getElementById('f-featured').checked = false
+  document.getElementById('f-coverColor').value = '#f97316'
+  document.getElementById('slug-preview').textContent = '...'
+  setDate()
+  document.getElementById('form-title').textContent = 'Write Article'
+  document.getElementById('delete-btn-wrap').style.display = 'none'
+}
+
+function editPost(slug) {
+  const post = allPosts.find(p => p.slug === slug)
+  if (!post) return
+  document.getElementById('edit-slug').value = slug
+  document.getElementById('form-title').textContent = 'Edit Article'
+  document.getElementById('delete-btn-wrap').style.display = 'block'
+  document.getElementById('f-title').value = post.title
+  document.getElementById('f-slug').value = post.slug
+  document.getElementById('slug-preview').textContent = post.slug
+  document.getElementById('f-excerpt').value = post.excerpt
+  document.getElementById('f-content').value = post.content
+  document.getElementById('f-category').value = post.category
+  document.getElementById('f-author').value = post.author
+  document.getElementById('f-authorRole').value = post.authorRole
+  document.getElementById('f-tags').value = (post.tags || []).join(', ')
+  document.getElementById('f-readTime').value = post.readTime
+  document.getElementById('f-image').value = post.image || ''
+  document.getElementById('f-featured').checked = !!post.featured
+  document.getElementById('f-coverColor').value = post.coverColor || '#f97316'
+  setDate(post.date)
+  showPage('new')
+}
+
+async function saveArticle() {
+  const title = document.getElementById('f-title').value.trim()
+  const content = document.getElementById('f-content').value.trim()
+  if (!title) { toast('Title is required', 'error'); return }
+  if (!content) { toast('Content is required', 'error'); return }
+
+  const editingSlug = document.getElementById('edit-slug').value
+  const slug = document.getElementById('f-slug').value.trim() || slugify(title)
+  const tags = document.getElementById('f-tags').value.split(',').map(t => t.trim()).filter(Boolean)
+
+  const body = {
+    slug,
+    title,
+    excerpt: document.getElementById('f-excerpt').value.trim(),
+    content,
+    category: document.getElementById('f-category').value,
+    author: document.getElementById('f-author').value,
+    authorRole: document.getElementById('f-authorRole').value,
+    date: document.getElementById('f-date').value,
+    readTime: document.getElementById('f-readTime').value || '5 min read',
+    featured: document.getElementById('f-featured').checked,
+    coverColor: document.getElementById('f-coverColor').value,
+    image: document.getElementById('f-image').value.trim(),
+    tags,
+  }
+
+  try {
+    const url = editingSlug ? `/api/posts/${encodeURIComponent(editingSlug)}` : '/api/posts'
+    const method = editingSlug ? 'PUT' : 'POST'
+    const res = await fetch(url, { method, headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
+    const data = await res.json()
+    if (!res.ok) { toast(data.error || 'Save failed', 'error'); return }
+    await loadAll()
+    resetForm()
+    showPage('articles')
+    toast(editingSlug ? 'Article updated!' : 'Article created!', 'success')
+  } catch (e) {
+    toast('Error: ' + e.message, 'error')
+  }
+}
+
+async function deleteArticle() {
+  const slug = document.getElementById('edit-slug').value
+  if (!slug) return
+  if (!confirm('Delete this article? This cannot be undone.')) return
+  try {
+    const res = await fetch(`/api/posts/${encodeURIComponent(slug)}`, { method: 'DELETE' })
+    if (!res.ok) { toast('Delete failed', 'error'); return }
+    await loadAll()
+    resetForm()
+    showPage('articles')
+    toast('Article deleted', 'success')
+  } catch (e) {
+    toast('Error: ' + e.message, 'error')
+  }
+}
+
+// ── Toast ────────────────────────────────────────────────────────────────────
+
+function toast(msg, type = '') {
+  const el = document.getElementById('toast')
+  el.textContent = msg
+  el.className = 'show ' + type
+  setTimeout(() => { el.className = '' }, 3000)
+}
+
+// ── Init ─────────────────────────────────────────────────────────────────────
+
+if (AUTH === 'true') setDate()
+</script>
+</body>
+</html>

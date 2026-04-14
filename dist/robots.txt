@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+
+Host: https://deskbly.com
+Sitemap: https://deskbly.com/sitemap.xml

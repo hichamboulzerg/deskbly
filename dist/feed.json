@@ -1,0 +1,985 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Deskbly",
+  "home_page_url": "https://deskbly.com",
+  "feed_url": "https://deskbly.com/feed.json",
+  "description": "Gear reviews, workspace design, and productivity habits for people who care about where they work.",
+  "icon": "https://deskbly.com/icon",
+  "favicon": "https://deskbly.com/icon",
+  "language": "en-US",
+  "items": [
+    {
+      "id": "https://deskbly.com/blog/ergonomic-home-office-setup-guide",
+      "url": "https://deskbly.com/blog/ergonomic-home-office-setup-guide",
+      "title": "Ergonomic Home Office Setup: The Science-Backed Guide to Working Without Pain",
+      "summary": "Most home offices are set up around convenience, not ergonomics. This guide covers every element — chair, desk, monitor, keyboard, lighting — with the science behind each recommendation.",
+      "image": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-04-10T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Mia Collins"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "ergonomics",
+        "home-office",
+        "setup-guide",
+        "posture",
+        "health"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/focus-music-for-work",
+      "url": "https://deskbly.com/blog/focus-music-for-work",
+      "title": "Best Music for Focus and Concentration: What the Research Says",
+      "summary": "Music affects cognition — but not in the simple way that productivity playlists suggest. The wrong music impairs focus significantly. The right choice depends on the task type. This guide covers the science and the practical recommendations.",
+      "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-04-09T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "focus",
+        "music",
+        "productivity",
+        "concentration",
+        "deep-work"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/small-home-office-ideas",
+      "url": "https://deskbly.com/blog/small-home-office-ideas",
+      "title": "Small Home Office Ideas: 14 Ways to Work Smarter in a Tight Space",
+      "summary": "A small workspace is not a limitation — it is a constraint that forces good design decisions. Here are the ideas, layouts, and gear choices that make compact home offices genuinely productive.",
+      "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-04-08T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Mia Collins"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "small-office",
+        "home-office",
+        "organization",
+        "space-saving",
+        "setup-guide"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/remote-work-burnout-prevention",
+      "url": "https://deskbly.com/blog/remote-work-burnout-prevention",
+      "title": "Remote Work Burnout: How to Recognise It and What Actually Prevents It",
+      "summary": "Remote workers experience burnout at higher rates than office workers — not because working from home is harder, but because the structural protections that offices provide disappear. This guide covers the warning signs and the specific changes that prevent burnout before it starts.",
+      "image": "https://images.unsplash.com/photo-1545987796-200677ee1011?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-04-05T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "burnout",
+        "remote-work",
+        "wellbeing",
+        "work-from-home",
+        "productivity"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-ergonomic-office-chairs-2026",
+      "url": "https://deskbly.com/blog/best-ergonomic-office-chairs-2026",
+      "title": "Best Ergonomic Office Chairs in 2026: Ranked After Weeks of Testing",
+      "summary": "After testing more than a dozen chairs, these are the ones worth buying — ranked by support, adjustability, and long-term comfort. Plus, what features actually matter and which are marketing noise.",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-04-02T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "chairs",
+        "ergonomics",
+        "buying-guide",
+        "health",
+        "posture"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/daily-planning-guide",
+      "url": "https://deskbly.com/blog/daily-planning-guide",
+      "title": "Daily Planning: The System That Makes Every Workday Intentional",
+      "summary": "Most people start the workday without a plan and end it unsure what they actually accomplished. A daily planning practice changes this — not through rigid scheduling but through deliberate prioritisation. Here is the system that works.",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-03-31T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "daily-planning",
+        "productivity",
+        "habits",
+        "time-management",
+        "focus"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-desk-setup-for-productivity",
+      "url": "https://deskbly.com/blog/best-desk-setup-for-productivity",
+      "title": "Best Desk Setup for Productivity in 2026: The Complete Workstation Guide",
+      "summary": "Monitor selection, keyboards, mice, cable management, accessories — everything you need to build a desk setup that makes work faster and less draining. Gear picks for every budget.",
+      "image": "https://images.unsplash.com/photo-1593640495253-23196b27a87f?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-03-28T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "desk",
+        "monitors",
+        "peripherals",
+        "setup-guide",
+        "productivity"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/deep-work-book-summary",
+      "url": "https://deskbly.com/blog/deep-work-book-summary",
+      "title": "Deep Work by Cal Newport: Summary, Key Ideas, and How to Apply It",
+      "summary": "Cal Newport's Deep Work is one of the most important productivity books of the decade. This summary covers the core argument, the four philosophies, and the specific practices that make the difference between knowing the ideas and actually implementing them.",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-03-24T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "deep-work",
+        "book-summary",
+        "focus",
+        "productivity",
+        "cal-newport"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/work-from-home-productivity-tips",
+      "url": "https://deskbly.com/blog/work-from-home-productivity-tips",
+      "title": "Work From Home Productivity: 20 Tips That Actually Make a Difference",
+      "summary": "Working remotely should make you more productive. For most people it does the opposite. These are the habits, environment changes, and practices that research and experience show actually work.",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-03-21T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "remote-work",
+        "productivity",
+        "habits",
+        "focus",
+        "work-from-home"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/getting-things-done-guide",
+      "url": "https://deskbly.com/blog/getting-things-done-guide",
+      "title": "Getting Things Done (GTD): A Practical Guide to the Method",
+      "summary": "David Allen's Getting Things Done is one of the most influential productivity systems ever written. This guide covers the five steps, how to implement them without becoming obsessed with the system, and what the research says about why it works.",
+      "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-03-17T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "gtd",
+        "getting-things-done",
+        "productivity",
+        "habits",
+        "time-management"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/time-blocking-guide",
+      "url": "https://deskbly.com/blog/time-blocking-guide",
+      "title": "Time Blocking: How to Reclaim Your Day and Get Deep Work Done",
+      "summary": "A to-do list tells you what to do. Time blocking tells you when. This complete guide covers the system, the implementation, and the common mistakes that make it fail for most people who try it.",
+      "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-03-14T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "time-blocking",
+        "time-management",
+        "deep-work",
+        "focus",
+        "techniques"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/how-to-choose-the-right-desk",
+      "url": "https://deskbly.com/blog/how-to-choose-the-right-desk",
+      "title": "How to Choose the Right Desk for Your Home Office",
+      "summary": "Size, shape, material, storage — everything you need to weigh before buying the desk you will spend thousands of hours at.",
+      "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-03-10T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Mia Collins"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "desk",
+        "buying-guide",
+        "home-office",
+        "setup-guide"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/inbox-zero-guide",
+      "url": "https://deskbly.com/blog/inbox-zero-guide",
+      "title": "Inbox Zero: What It Actually Means and How to Achieve It",
+      "summary": "Inbox Zero is widely misunderstood. It is not about an empty inbox — it is about processing email with intention rather than reaction. This guide explains the system, the habits, and the realistic expectations.",
+      "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-03-10T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "inbox-zero",
+        "email",
+        "productivity",
+        "habits",
+        "time-management"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/home-office-lighting-guide",
+      "url": "https://deskbly.com/blog/home-office-lighting-guide",
+      "title": "Home Office Lighting Guide: How to Light Your Workspace for Focus and Comfort",
+      "summary": "Bad lighting causes fatigue you will blame on your work. This guide covers the principles, the gear, and the exact setup that eliminates eye strain and creates a workspace that energises rather than drains.",
+      "image": "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-03-07T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Mia Collins"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "lighting",
+        "home-office",
+        "eye-strain",
+        "setup-guide",
+        "ergonomics"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/how-to-stop-procrastinating",
+      "url": "https://deskbly.com/blog/how-to-stop-procrastinating",
+      "title": "How to Stop Procrastinating: The Practical Guide That Actually Works",
+      "summary": "Procrastination is not laziness — it is an emotion regulation problem. Understanding why you procrastinate is the prerequisite to fixing it. This guide covers the mechanisms and the strategies that research shows actually change the behaviour.",
+      "image": "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-03-03T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "procrastination",
+        "productivity",
+        "habits",
+        "focus",
+        "psychology"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/pomodoro-technique-does-it-work",
+      "url": "https://deskbly.com/blog/pomodoro-technique-does-it-work",
+      "title": "The Pomodoro Technique: Does It Actually Work?",
+      "summary": "Everyone has heard of it. Not everyone has used it correctly. An honest look at what the research says and how to make it work for you.",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-03-01T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "pomodoro",
+        "time-management",
+        "focus",
+        "techniques"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/standing-desk-guide",
+      "url": "https://deskbly.com/blog/standing-desk-guide",
+      "title": "Standing Desk Guide: Do You Need One, and Which to Buy in 2026",
+      "summary": "Standing desks promise health benefits, improved energy, and reduced back pain. Some of those claims are well-founded. Some are marketing. This guide separates them — and recommends the best options at every budget.",
+      "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-02-28T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Tom Hadley"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "standing-desk",
+        "ergonomics",
+        "health",
+        "desk",
+        "buying-guide"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/budget-home-office-setup",
+      "url": "https://deskbly.com/blog/budget-home-office-setup",
+      "title": "Budget Home Office Setup: The Best Gear Under £500 in 2026",
+      "summary": "You do not need to spend a fortune to build a home office that works. This guide covers the best gear at every price point — and the prioritisation that gets you 90% of the benefit at 30% of the cost.",
+      "image": "https://images.unsplash.com/photo-1593642634367-d91a135587b5?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-02-21T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Mia Collins"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "budget",
+        "home-office",
+        "setup-guide",
+        "buying-guide",
+        "value"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/desk-minimalism-guide",
+      "url": "https://deskbly.com/blog/desk-minimalism-guide",
+      "title": "The Art of Desk Minimalism: Why Less is More Productive",
+      "summary": "A clear desk is not just aesthetically pleasing — there is real neuroscience behind why visual clutter destroys focus.",
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-02-18T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Tom Hadley"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "minimalism",
+        "organization",
+        "clean-desk",
+        "mindset"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-office-speakers",
+      "url": "https://deskbly.com/blog/best-office-speakers",
+      "title": "Best Desk Speakers for Home Office in 2026",
+      "summary": "Headphones are the default for focus work, but speakers win for long listening sessions, background music, and video calls with multiple participants. These are the best desk speakers for home office use.",
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-02-17T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "speakers",
+        "audio",
+        "home-office",
+        "buying-guide",
+        "desk"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-monitor-for-home-office",
+      "url": "https://deskbly.com/blog/best-monitor-for-home-office",
+      "title": "Best Monitor for Home Office in 2026: Tested and Ranked",
+      "summary": "The right monitor reduces eye strain, boosts productivity, and transforms how you work. The wrong one causes daily friction you stop noticing. This guide covers the best options from budget to premium — with honest assessments of what actually matters.",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-02-14T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "monitor",
+        "home-office",
+        "buying-guide",
+        "display",
+        "peripherals"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-webcam-for-video-calls",
+      "url": "https://deskbly.com/blog/best-webcam-for-video-calls",
+      "title": "Best Webcam for Video Calls in 2026: Tested for Remote Workers",
+      "summary": "The built-in laptop webcam is almost always the worst camera in any video call. An external webcam costs less than a dinner out and permanently improves how you are perceived by colleagues and clients. Here are the best options.",
+      "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-02-07T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "webcam",
+        "video-calls",
+        "remote-work",
+        "buying-guide",
+        "peripherals"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-ergonomic-mice-2025",
+      "url": "https://deskbly.com/blog/best-ergonomic-mice-2025",
+      "title": "Best Ergonomic Mice for Long Work Sessions in 2025",
+      "summary": "The mouse you use for eight hours a day deserves more thought than you have given it. Here are the options worth considering.",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-02-05T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "mouse",
+        "ergonomics",
+        "wrist-health",
+        "peripherals"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-office-chair-mat",
+      "url": "https://deskbly.com/blog/best-office-chair-mat",
+      "title": "Best Chair Mat for Home Office in 2026: Hard Floor and Carpet Options",
+      "summary": "A chair mat protects your floor, makes rolling your chair effortless, and prevents the fatigue that comes from fighting your flooring all day. These are the best options for hardwood, carpet, and everything in between.",
+      "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-02-03T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Tom Hadley"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "chair-mat",
+        "ergonomics",
+        "home-office",
+        "buying-guide",
+        "flooring"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/desk-accessories-guide",
+      "url": "https://deskbly.com/blog/desk-accessories-guide",
+      "title": "Best Desk Accessories for Productivity in 2026",
+      "summary": "The accessories that make the most difference to how your desk functions and how focused you feel. This is not a list of things to buy — it is a curated selection of the accessories with genuine impact.",
+      "image": "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-01-31T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Tom Hadley"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "desk-accessories",
+        "productivity",
+        "organization",
+        "cable-management",
+        "setup-guide"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/monitor-arm-guide",
+      "url": "https://deskbly.com/blog/monitor-arm-guide",
+      "title": "Best Monitor Arms in 2026: Reviewed and Ranked",
+      "summary": "A monitor arm is the highest-impact desk accessory most home office setups are missing. This guide covers what to look for, which to avoid, and the best options from budget to premium.",
+      "image": "https://images.unsplash.com/photo-1593640495253-23196b27a87f?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-01-24T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Tom Hadley"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "monitor-arm",
+        "ergonomics",
+        "desk",
+        "buying-guide",
+        "peripherals"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-usb-c-hub",
+      "url": "https://deskbly.com/blog/best-usb-c-hub",
+      "title": "Best USB-C Hub and Docking Station in 2026: The Complete Buyer's Guide",
+      "summary": "Modern laptops have too few ports. A USB-C hub or Thunderbolt dock fixes this — but the wrong one causes display flicker, slow charging, and compatibility headaches. This guide cuts through the confusion.",
+      "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-01-19T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "usb-hub",
+        "docking-station",
+        "peripherals",
+        "buying-guide",
+        "home-office"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/pomodoro-technique-guide",
+      "url": "https://deskbly.com/blog/pomodoro-technique-guide",
+      "title": "Pomodoro Technique: The Complete Guide to Working in Focused Sprints",
+      "summary": "The Pomodoro Technique is one of the most researched and widely used productivity methods — for good reason. This guide explains the system, why it works, how to adapt it, and the mistakes that make it fail.",
+      "image": "https://images.unsplash.com/photo-1504890773-3e5c9fdfda28?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-01-17T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "pomodoro",
+        "focus",
+        "time-management",
+        "productivity",
+        "techniques"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/headphones-vs-earbuds-for-work",
+      "url": "https://deskbly.com/blog/headphones-vs-earbuds-for-work",
+      "title": "Headphones vs. Earbuds for Work: An Honest Comparison",
+      "summary": "Noise cancellation, comfort over long hours, call quality, price — everything you need to choose the right audio for your workday.",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-01-14T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "headphones",
+        "earbuds",
+        "audio",
+        "focus"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-desk-lamp-guide",
+      "url": "https://deskbly.com/blog/best-desk-lamp-guide",
+      "title": "Best Desk Lamp for Home Office in 2026: Tested for Eye Strain and Usability",
+      "summary": "A good desk lamp eliminates eye strain, improves video call appearance, and makes extended work sessions significantly more comfortable. A bad one makes everything worse. These are the best options right now.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-01-12T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "desk-lamp",
+        "lighting",
+        "home-office",
+        "buying-guide",
+        "eye-strain"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/morning-routine-for-productivity",
+      "url": "https://deskbly.com/blog/morning-routine-for-productivity",
+      "title": "Morning Routine for Productivity: The Evidence-Based Approach",
+      "summary": "The first hour of your workday largely determines its quality. Not because of productivity hacks, but because of how cognitive resources are allocated and depleted. This guide covers what the research says and what actually works.",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-01-10T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "morning-routine",
+        "productivity",
+        "habits",
+        "focus",
+        "deep-work"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/how-to-improve-focus",
+      "url": "https://deskbly.com/blog/how-to-improve-focus",
+      "title": "How to Improve Focus: 12 Evidence-Based Strategies That Work",
+      "summary": "Focus is not a fixed trait — it is a skill that can be trained and an environment that can be engineered. This guide covers what actually degrades attention, and the specific strategies research shows can rebuild it.",
+      "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-01-03T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "focus",
+        "concentration",
+        "deep-work",
+        "productivity",
+        "habits"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/dual-monitor-setup-guide",
+      "url": "https://deskbly.com/blog/dual-monitor-setup-guide",
+      "title": "Dual Monitor Setup Guide: How to Do It Right for Productivity",
+      "summary": "A second monitor sounds like a straightforward upgrade. Done wrong, it creates more friction than it solves. This guide covers placement, matching, ergonomics, and whether dual monitors are actually right for your work.",
+      "image": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-12-27T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Mia Collins"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "monitors",
+        "dual-monitor",
+        "setup-guide",
+        "ergonomics",
+        "productivity"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/home-office-decor-ideas",
+      "url": "https://deskbly.com/blog/home-office-decor-ideas",
+      "title": "Home Office Decor Ideas: How to Design a Space That Motivates You",
+      "summary": "A workspace you enjoy looking at is one you will actually use. This guide covers the design principles, colour choices, and personal touches that make a home office feel professional and inspiring without becoming cluttered.",
+      "image": "https://images.unsplash.com/photo-1616627547584-bf28cee262db?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-12-20T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Mia Collins"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "decor",
+        "home-office",
+        "design",
+        "inspiration",
+        "organization"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-laptop-stand",
+      "url": "https://deskbly.com/blog/best-laptop-stand",
+      "title": "Best Laptop Stand in 2026: Vertical, Adjustable, and Fixed Options Reviewed",
+      "summary": "A laptop stand is one of the cheapest ergonomic upgrades you can make. It raises your screen to eye level, improves cooling, and frees up desk space. These are the best options for every setup.",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-12-15T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "laptop-stand",
+        "ergonomics",
+        "peripherals",
+        "buying-guide",
+        "home-office"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/cable-management-desk-guide",
+      "url": "https://deskbly.com/blog/cable-management-desk-guide",
+      "title": "Desk Cable Management: How to Eliminate the Cable Nest for Good",
+      "summary": "A cable nest is not just ugly — it is a daily source of low-level stress and a genuine fire hazard. This guide covers the exact tools, techniques, and order of operations to get your desk cables completely under control.",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-12-13T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Tom Hadley"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "cable-management",
+        "organization",
+        "desk",
+        "setup-guide",
+        "clean-desk"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/home-office-organization-tips",
+      "url": "https://deskbly.com/blog/home-office-organization-tips",
+      "title": "Home Office Organization: 10 Systems That Keep Your Workspace Under Control",
+      "summary": "An organised home office is not about tidiness for its own sake — it is about reducing the friction between you and your work. These are the systems that prevent entropy from taking over.",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-12-06T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Mia Collins"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "organization",
+        "home-office",
+        "productivity",
+        "clean-desk",
+        "habits"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/digital-minimalism-at-your-desk",
+      "url": "https://deskbly.com/blog/digital-minimalism-at-your-desk",
+      "title": "Digital Minimalism at Your Desk: Taming Notifications and Apps",
+      "summary": "Physical clutter is easy to see. Digital clutter is invisible — and it is doing more damage to your focus than the mess on your desk.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-12-05T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "digital-minimalism",
+        "habits",
+        "mental-health",
+        "focus"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/corner-desk-setup-guide",
+      "url": "https://deskbly.com/blog/corner-desk-setup-guide",
+      "title": "Corner Desk Setup Guide: How to Make the Most of an L-Shaped Workspace",
+      "summary": "Corner desks offer more surface area than any straight desk at the same price point. But the extra space comes with ergonomic trade-offs that most setups ignore. Here is how to do it right.",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-11-29T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Tom Hadley"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "corner-desk",
+        "l-shaped-desk",
+        "setup-guide",
+        "ergonomics",
+        "workspace"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/the-perfect-home-office-setup",
+      "url": "https://deskbly.com/blog/the-perfect-home-office-setup",
+      "title": "The Perfect Home Office Setup: A Complete Guide for 2025",
+      "summary": "Discover how to build a workspace that boosts productivity, reduces fatigue, and actually makes you want to sit down and work.",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-03-28T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Mia Collins"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "ergonomics",
+        "home-office",
+        "setup-guide",
+        "remote-work"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-mechanical-keyboards-2025",
+      "url": "https://deskbly.com/blog/best-mechanical-keyboards-2025",
+      "title": "Best Mechanical Keyboards for Productivity in 2025",
+      "summary": "From linear switches to tactile bumps — everything you need to find the keyboard that fits your hands and your workflow.",
+      "image": "https://images.unsplash.com/photo-1541462608143-67571c6738dd?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-03-15T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "keyboards",
+        "mechanical",
+        "typing",
+        "peripherals"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/deep-work-distraction-free-workspace",
+      "url": "https://deskbly.com/blog/deep-work-distraction-free-workspace",
+      "title": "How to Design a Distraction-Free Workspace for Deep Work",
+      "summary": "Cal Newport's deep work principles applied to your physical environment — and why where you work shapes how well you think.",
+      "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-02-20T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "deep-work",
+        "focus",
+        "distraction-free",
+        "productivity"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/standing-desk-guide",
+      "url": "https://deskbly.com/blog/standing-desk-guide",
+      "title": "Standing Desks: The Complete Buyer's Guide",
+      "summary": "Are standing desks actually worth it? We break down the science, the options, and what to look for before you buy.",
+      "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-02-05T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Tom Hadley"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "standing-desk",
+        "ergonomics",
+        "health",
+        "posture"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/monitor-setup-guide",
+      "url": "https://deskbly.com/blog/monitor-setup-guide",
+      "title": "Single vs Dual vs Ultrawide: The Monitor Setup Guide",
+      "summary": "More screens doesn't always mean more productivity. Here's how to choose the monitor setup that actually matches your work.",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-01-18T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Mia Collins"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "monitors",
+        "display",
+        "dual-monitor",
+        "peripherals"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/morning-routine-for-remote-workers",
+      "url": "https://deskbly.com/blog/morning-routine-for-remote-workers",
+      "title": "The Morning Routine That Sets Up Your Whole Remote Workday",
+      "summary": "How you start the morning shapes everything that follows. A practical guide to building a remote work routine that actually sticks.",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2025-01-05T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Sara Osei"
+        }
+      ],
+      "tags": [
+        "Productivity",
+        "morning-routine",
+        "remote-work",
+        "habits",
+        "productivity"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-desk-lamps-2025",
+      "url": "https://deskbly.com/blog/best-desk-lamps-2025",
+      "title": "Best Desk Lamps for Your Home Office in 2025",
+      "summary": "Good lighting is the most underrated element of a productive workspace. Here are the desk lamps worth your money.",
+      "image": "https://images.unsplash.com/photo-1513506003901-1e6a35359f94?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2024-12-12T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "lighting",
+        "desk-lamps",
+        "ambiance",
+        "eye-strain"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/cable-management-guide",
+      "url": "https://deskbly.com/blog/cable-management-guide",
+      "title": "Cable Management: Turn Your Desk From Chaos to Clean",
+      "summary": "A messy cable situation is ruining your workspace. Here's the systematic approach to taming every wire once and for all.",
+      "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2024-11-30T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Tom Hadley"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "cable-management",
+        "organization",
+        "clean-desk",
+        "setup"
+      ]
+    }
+  ]
+}
