@@ -1,5 +1,6 @@
 import { getPostBySlug, getAllPosts, formatDate } from '@/lib/posts'
 import { getAuthorByName } from '@/lib/authors'
+import { tagAmazonUrl, isAmazonUrl } from '@/lib/affiliate'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, Clock, Tag, ArrowUpRight } from 'lucide-react'
