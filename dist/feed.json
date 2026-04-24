@@ -9,6 +9,48 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://deskbly.com/blog/gaming-chair-vs-office-chair-for-work",
+      "url": "https://deskbly.com/blog/gaming-chair-vs-office-chair-for-work",
+      "title": "Gaming Chair vs Office Chair: Which Is Better for Working From Home?",
+      "summary": "A direct comparison of gaming chairs and office chairs for eight-hour workdays — ergonomics, lumbar support, seat foam, and which style actually lasts.",
+      "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-04-24T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Tom Hadley"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "chairs",
+        "ergonomics",
+        "gaming-chair",
+        "buying-guide",
+        "home-office"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/best-anti-fatigue-mats-standing-desk",
+      "url": "https://deskbly.com/blog/best-anti-fatigue-mats-standing-desk",
+      "title": "Best Anti-Fatigue Mats for Standing Desks in 2026",
+      "summary": "The top five anti-fatigue mats for standing desks — what thickness, material, and size actually matter, plus how to avoid the mistakes that ruin the benefit.",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-04-23T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "standing-desk",
+        "accessories",
+        "ergonomics",
+        "gear-review",
+        "home-office"
+      ]
+    },
+    {
       "id": "https://deskbly.com/blog/ergonomic-home-office-setup-guide",
       "url": "https://deskbly.com/blog/ergonomic-home-office-setup-guide",
       "title": "Ergonomic Home Office Setup: The Science-Backed Guide to Working Without Pain",

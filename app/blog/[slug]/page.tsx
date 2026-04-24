@@ -29,12 +29,24 @@ export async function generateMetadata(props: PageProps<'/blog/[slug]'>) {
       description: post.excerpt,
       url: `https://deskbly.com/blog/${post.slug}`,
       publishedTime: post.date,
+      modifiedTime: post.date,
       authors: [post.author],
+      section: post.category,
+      tags: post.tags,
+      images: [
+        {
+          url: post.image,
+          width: 1200,
+          height: 800,
+          alt: post.title,
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
+      images: [post.image],
     },
   }
 }
