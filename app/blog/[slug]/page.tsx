@@ -175,11 +175,23 @@ export default async function BlogPostPage(props: PageProps<'/blog/[slug]'>) {
       <div className="relative h-64 sm:h-80 lg:h-96 overflow-hidden">
         <img src={post!.image} alt={post!.title} className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
-        <div className="absolute top-5 left-0 right-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="absolute top-5 left-0 right-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-3">
           <Link href="/blog"
             className="inline-flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-xl text-white bg-white/15 hover:bg-white/25 backdrop-blur-sm transition-colors border border-white/20">
             <ArrowLeft size={14} /> All Articles
           </Link>
+          <a
+            href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://deskbly.com/blog/${post!.slug}`)}&media=${encodeURIComponent(post!.image)}&description=${encodeURIComponent(post!.title)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Save this post to Pinterest"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold px-3.5 py-2 rounded-xl bg-red-600 hover:bg-red-700 text-white transition-colors shadow-lg"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12.017 0C5.396 0 .029 5.367.029 11.988c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z" />
+            </svg>
+            Save
+          </a>
         </div>
         <div className="absolute bottom-5 left-0 right-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <span className={`inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full ${cat.bg} ${cat.text}`}>
