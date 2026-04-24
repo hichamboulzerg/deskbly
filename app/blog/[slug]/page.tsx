@@ -246,8 +246,11 @@ export default async function BlogPostPage(props: PageProps<'/blog/[slug]'>) {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 pb-16">
           {/* Article */}
           <article className="lg:col-span-2">
-            <p className="text-xl text-stone-600 leading-relaxed mb-10 font-medium pl-4 border-l-4 border-orange-500">
+            <p className="text-xl text-stone-600 leading-relaxed mb-6 font-medium pl-4 border-l-4 border-orange-500">
               {post!.excerpt}
+            </p>
+            <p className="text-xs text-stone-500 dark:text-stone-400 mb-8 p-3 rounded-lg bg-stone-100 dark:bg-stone-900 border border-stone-200 dark:border-stone-800">
+              <strong>Affiliate disclosure:</strong> This post may contain affiliate links to products we recommend. We earn a small commission when you buy through them, at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. See our <Link href="/disclaimer" className="text-orange-600 dark:text-orange-400 hover:underline">disclaimer</Link> for details.
             </p>
             <div className="prose">{renderContent(post!.content)}</div>
             <div className="mt-10 pt-8 border-t border-stone-200 dark:border-stone-800 flex flex-wrap items-center gap-3">
