@@ -73,7 +73,13 @@ function formatInline(text: string): string {
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
     .replace(/`(.+?)`/g, '<code>$1</code>')
-    .replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2" class="text-orange-600 dark:text-orange-400 hover:underline font-medium">$1</a>')
+    .replace(/\[(.+?)\]\((.+?)\)/g, (_m, label: string, url: string) => {
+      if (isAmazonUrl(url)) {
+        const tagged = tagAmazonUrl(url)
+        return `<a href="${tagged}" rel="sponsored nofollow noopener" target="_blank" class="text-orange-600 dark:text-orange-400 hover:underline font-medium">${label}</a>`
+      }
+      return `<a href="${url}" class="text-orange-600 dark:text-orange-400 hover:underline font-medium">${label}</a>`
+    })
 }
 
 function renderContent(content: string): React.ReactNode[] {
