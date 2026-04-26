@@ -14,7 +14,262 @@ export interface Post {
   tags: string[]
 }
 
-export const posts: Post[] = [{slug:"pegboard-wall-organization-small-home-office",title:"Pegboard Wall Organization Ideas for a Small Home Office",excerpt:"Eight ways to turn dead wall space into flexible, customizable storage — from tool boards to plant shelves to charging stations — without dominating a tiny room.",category:"Workspace",author:"Mia Collins",authorRole:"Workspace Designer",date:"2026-04-26",readTime:"7 min read",featured:!0,coverColor:"from-amber-500 to-orange-700",image:"https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=1200&h=800&fit=crop&auto=format&q=80",tags:["organization","small-space","home-office","diy","workspace"],content:`
+export const posts: Post[] = [{slug:"how-to-make-zoom-calls-look-professional",title:"How to Make Zoom Calls Look Professional: Webcam, Lighting & Audio Setup in 2026",excerpt:"Three things separate a sloppy video call from a polished one — webcam, lighting, audio — and most people get one right and ignore the other two. Here's the 30-minute fix.",category:"Gear",author:"James Park",authorRole:"Tech Reviewer",date:"2026-04-26",readTime:"9 min read",featured:!0,coverColor:"from-blue-500 to-violet-700",image:"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=800&fit=crop&auto=format&q=80",tags:["video-calls","remote-work","webcam","lighting","audio","gear-review"],content:`
+## Why Your Video-Call Setup Actually Matters
+
+Most remote workers spend 2 to 4 hours a day on video calls. That's roughly 500 hours a year your face — backlit, pixelated, or both — is the only thing separating you from your colleagues. Bad video presence costs you in subtle ways: meetings run longer, your ideas get less attention, and people unconsciously assume you're less prepared.
+
+The good news: a "professional" Zoom appearance isn't expensive or technical. Three things matter — webcam, lighting, audio — and most people get one of them right and ignore the other two. Here's how to fix all three in 30 minutes with mostly cheap gear.
+
+## 1. Webcam: What Actually Matters
+
+Pixel count is overrated. Most laptop webcams are 720p (HD), and 1080p webcams are now standard. Beyond 1080p you stop seeing meaningful gains over Zoom's compression.
+
+What does matter:
+
+- **Sensor size** — bigger sensors handle low light better. The Logitech Brio's 1/3" sensor outperforms most laptop webcams not because of resolution but because of light gathering.
+- **Field of view** — 65° to 78° is ideal. Wider (90°+) creates a fisheye effect that distorts your face. Narrower (60° or less) feels claustrophobic.
+- **Auto-exposure quality** — bad webcams blow out windows and underexpose faces. Test in a room with mixed lighting before buying.
+- **Framerate** — 30fps minimum. 60fps is overkill for video calls (Zoom caps at 30 anyway).
+
+### Webcam picks
+- **Logitech Brio 4K** (~$150) — overall best, true 4K with HDR for difficult lighting
+- **Logitech C920s** (~$60) — the workhorse, 1080p, fine for 95% of users
+- **Anker PowerConf C200** (~$40) — surprisingly good budget pick with AI auto-framing
+- **MacBook built-in (M-series)** — actually quite good in 2024+, no upgrade needed if you're on a recent Mac
+
+For deeper picks, see our [best webcam for video calls](/blog/best-webcam-for-video-calls) guide.
+
+## 2. Lighting: The Single Biggest Upgrade
+
+If you only fix one thing, fix lighting. A $40 light makes a 1080p webcam look better than a 4K webcam in bad light. The principle: **light should come from in front of your face, not behind or above.**
+
+### Option A: Window light (free, works if you have a window)
+
+Sit *facing* a window during daylight hours. Window in front = soft, even light. Window behind = silhouette. Window beside = half your face is in shadow.
+
+If your desk faces a wall, rotate your laptop or monitor toward the window during important calls. The 30 seconds of setup is worth it.
+
+### Option B: Ring light or panel light (~$30 to $100)
+
+A standard 10–18" ring light mounted behind/above the webcam gives even, flattering light. Look for:
+
+- 3000K to 5500K color temperature adjustability
+- Diffusion (soft light, not harsh)
+- USB-C powered
+
+Picks: **Lume Cube Broadcast Lighting Kit** (~$120, premium), **UBeesize 10" Ring Light** (~$25, budget).
+
+### Option C: Monitor light bar
+
+A light bar mounted on top of your monitor (BenQ ScreenBar, Quntis) lights your face indirectly without glare on the screen. Doubles as a desk lamp for non-call hours. See our [monitor light bar vs desk lamp guide](/blog/monitor-light-bar-vs-desk-lamp).
+
+### What NOT to do
+
+- Don't sit with a window or bright light *behind* you — you'll be a silhouette
+- Don't use overhead room lighting alone — creates raccoon eyes
+- Don't use a colored light unless you want to look sick
+
+## 3. Audio: The Forgotten Layer
+
+Audio matters more than video. People will tolerate a slightly dim webcam, but they'll mute you and tune out if your audio echoes, cuts out, or pops. The fix is usually one of these:
+
+### Built-in laptop mic
+
+Fine for short calls in a quiet room. Bad for: rooms with hard floors (echo), background noise, anyone leaning back from the laptop.
+
+### USB microphone (~$60 to $250)
+
+A dedicated USB mic dramatically improves audio quality. Picks:
+
+- **Blue Yeti Nano** (~$100) — desktop, podcast-style, sounds professional
+- **Shure MV7** (~$250) — broadcast-quality, expensive but worth it for heavy users
+- **Jabra Speak2 40** (~$150) — speakerphone-style, great if you walk around during calls
+
+### Headset (cheaper, often better)
+
+A wired or wireless headset puts the mic close to your mouth, cutting room noise dramatically. Picks:
+
+- **Apple AirPods Pro** (~$249) — surprisingly good mic for the price, works on any platform
+- **Jabra Evolve2 65** (~$300) — best-in-class business headset
+- **Logitech H390** (~$30) — wired, simple, just works
+
+### What NOT to do
+
+- Don't use Bluetooth earbuds with the laptop's mic (defeats the purpose)
+- Don't sit in a hard-surfaced room without absorption (rugs, curtains, soft furniture all help)
+- Don't ignore Zoom's "Suppress Background Noise" setting — turn it to High
+
+## 4. Background: Real, Blurred, or Virtual?
+
+In order of professionalism:
+
+1. **Real, intentional background** — best. A clean wall, a bookshelf, a plant — anything that's not your unmade bed.
+2. **Blurred** — fine. Most platforms (Zoom, Teams, Meet) blur the background well in 2026. Slight processing artifacts are acceptable.
+3. **Virtual background** — last resort. The edges around your hair and clothes will jitter. Looks unprofessional unless you have a green screen.
+
+If you only have a messy background, blur is your friend.
+
+## 5. Framing: The Rules That Make You Look Composed
+
+- **Eye-level webcam.** If you look down at the camera, viewers see up your nose. Use a laptop stand or monitor-mounted webcam.
+- **Top of your head ~10% from frame top.** Don't have your head crammed against the top edge.
+- **Eye-to-collarbone visible.** Anything closer feels invasive; anything further makes you a small dot.
+- **Look at the camera, not the screen.** Hard, but improves perceived engagement. Tape a small note above your webcam if you forget.
+
+## 6. Pre-Call Checklist (30 seconds before joining)
+
+- Light source in front of face (window, ring light, or screen bar)
+- Camera at eye level
+- Mic test ("Hello hello hello") — no echo, no clipping
+- Background presentable or blurred
+- Notifications silenced (Slack, email, calendar pings)
+- Glass of water within reach
+- Tabs not relevant to the call closed (in case of screen share)
+
+## Frequently Asked Questions
+
+**Do I really need a separate webcam if I have a MacBook?**
+Recent MacBook (M2 / M3 / M4) cameras are genuinely good. If you're on an M-series Mac and lighting is decent, skip the external webcam and spend the money on lighting and audio instead.
+
+**What about a green screen for virtual backgrounds?**
+Worth it if you do daily client-facing calls and want a clean look. A 5×7 collapsible green screen runs about $30. Otherwise skip.
+
+**Why does my video look great on my screen but bad to others?**
+You're seeing your raw camera feed. Recipients see Zoom-compressed video, which downgrades quality significantly. Test by joining a call from a second device.
+
+**Are blue light glasses helpful for long video calls?**
+Maybe — see our [blue light glasses honest review](/blog/best-blue-light-glasses-computer-work-2026). The truth is more nuanced than the marketing.
+
+**How do I stop sounding tired on video calls?**
+Stand up while you talk (helps voice projection), drink water before, and over-articulate slightly — voice loses character through compression and microphones.
+`},{slug:"cloffice-setup-tiny-home-office-closet",title:"Cloffice Setup: How to Build a Tiny Home Office in a Closet",excerpt:"The closet-office trend is having a moment for a reason — you get a real, closeable workspace without sacrificing a bedroom. Here's how to plan, build, and finish one in a weekend.",category:"Workspace",author:"Mia Collins",authorRole:"Workspace Designer",date:"2026-04-26",readTime:"8 min read",featured:!1,coverColor:"from-emerald-500 to-teal-700",image:"https://images.unsplash.com/photo-1513506003901-1e6a35359f94?w=1200&h=800&fit=crop&auto=format&q=80",tags:["small-space","remote-work","diy","cloffice","home-office","workspace"],content:`
+## What Is a Cloffice (and Why Everyone's Building One)
+
+A "cloffice" — closet office — is a fully functional workspace built into a small closet, walk-in, or under-stair nook. The trend exploded during 2020 to 2021 when people started working from home permanently and discovered there was no spare room to dedicate. By 2026 the cloffice is its own design category, and Pinterest is overflowing with tiny doorless or sliding-door workspaces tucked into former coat closets.
+
+The appeal: you get a real, dedicated, **closeable** office without sacrificing a bedroom or eating the dining table. When the workday ends, you close the doors and the room becomes a regular bedroom or hallway again. The psychological separation between work and life — the thing remote workers struggle with most — gets baked into the architecture.
+
+## Will Your Closet Actually Work?
+
+Three closet types convert well, one doesn't:
+
+- **Walk-in closet** (best) — interior space large enough to sit inside. Aim for 4'×4' minimum.
+- **Reach-in closet** (also good) — standard bedroom closet, 2'×4' or larger. Desk gets installed where the hanging rod was.
+- **Under-stair closet** (workable) — irregular but cozy, charming when finished.
+- **Pantry / hall coat closet under 2' deep** (don't bother) — too shallow for a real desk.
+
+Measure the depth (front to back), width, and height. If depth is at least 22" and width at least 36", you have enough room for a real workspace.
+
+## Step 1: Empty It Completely
+
+Take everything out. Patch any holes from old hooks or hanging rods. If you're committing, repaint — a slightly darker or warmer color than the surrounding room makes the cloffice feel intentional rather than improvised.
+
+Color picks that read "cozy office":
+
+- **Forest green** — book-room aesthetic
+- **Warm terracotta** — earthy, cottage-friendly
+- **Deep navy** — scholarly, masculine-leaning
+- **Soft cream** — keeps small space bright
+
+Avoid stark white — too sterile. Avoid black — turns the closet into a cave.
+
+## Step 2: The Desk Solution
+
+The desk is the hardest decision because most off-the-shelf desks are too deep (24"+) for a closet. Four options that work:
+
+### Custom-cut wood plank
+
+The most popular cloffice solution: a wood plank cut to the closet's exact width, mounted on heavy-duty L-brackets at desk height (29" from floor). Hardware stores cut to size for ~$5. A 60"×18" plank in oak or pine runs $30 to $80.
+
+This option looks the best, fits exactly, and lets you choose the wood species.
+
+### IKEA hack: ALEX or LINNMON cut down
+
+The IKEA LINNMON tabletop ($25 to $50) can be cut down with a circular saw to fit any closet width. ALEX drawer units make great desk legs and add storage.
+
+### Floating shelf as desk
+
+A simple floating shelf 18"×30" or 18"×48", rated for desk weight (50 lb minimum), works as a minimal desk surface. No legs, no clutter underneath. Best for laptop-only setups.
+
+### Fold-down / wall-mounted desk
+
+Murphy-style fold-down desks let you reclaim floor space when work is done. Pricier ($150 to $400) and more permanent installation. Worth it in studios and very small homes.
+
+## Step 3: The Chair Problem
+
+Standard office chairs are too big for most cloffices. Options:
+
+- **Task stool** — backless, adjusts up and down, fits anywhere ($60 to $200)
+- **Compact ergonomic chair** — IKEA MARKUS in its smaller form factor, or HÅG Capisco
+- **Folding chair** — works if the cloffice is occasional-use only
+- **Standing-only setup** — set the desk at standing height, skip the chair entirely
+
+Sit in your chair option for an hour before committing. Closet ergonomics get bad fast — you can't lean back, you can't sprawl. Make sure the chair won't ruin your back over time. For full ergonomic principles, see our [ergonomic home office setup guide](/blog/ergonomic-home-office-setup-guide).
+
+## Step 4: Lighting (Critical)
+
+Most closets have no windows. You'll need to bring light to the cloffice or it will feel like a cave.
+
+Layered approach:
+
+- **Overhead light** — replace any existing single bulb with a brighter LED (3000K to 3500K, 800+ lumens). If there's no fixture, install one or use a battery-powered LED puck light on the ceiling.
+- **Task light on desk** — desk lamp or [monitor light bar](/blog/monitor-light-bar-vs-desk-lamp) for direct work lighting.
+- **Accent light** — small wall sconce or LED strip along the back of the desk for ambient warmth.
+
+Skip fluorescent lighting. The greenish cast in a small space is brutal.
+
+## Step 5: Storage Above and Below
+
+The advantage of cloffices: vertical space is abundant. Use it.
+
+- **Above the desk** — floating shelves at 12", 24", 36" above the desk surface for books, supplies, decor. Or a small pegboard (see our [pegboard wall organization ideas](/blog/pegboard-wall-organization-small-home-office)).
+- **Below the desk** — a 2-drawer file cabinet, baskets for cables, a small trash bin
+- **Behind the desk** — a corkboard, calendar, or magnetic whiteboard makes the back wall functional
+
+## Step 6: The Aesthetic Finish
+
+The cloffice's small footprint means details show. Touches that matter:
+
+- **Wallpaper or wall paneling** — a single accent wall behind the desk transforms the space
+- **A small art piece** — eye-level, framed, intentional
+- **One plant** — a small trailing pothos on a top shelf, or a sculptural snake plant on the floor
+- **Quality desk objects** — a leather mousepad, a wooden pencil cup, a ceramic coaster — small choices that read as curated
+
+For more ideas in this direction, see our [aesthetic desk setup guide](/blog/aesthetic-desk-setup-ideas-cozy-home-office).
+
+## Door Question: Open, Closed, or Removed?
+
+Three approaches:
+
+- **Keep the doors** — close them at the end of the day. Best for the work-life separation argument.
+- **Remove the doors** — open the cloffice as a built-in alcove. Visually expands the room. Best when the closet is in a less-trafficked area.
+- **Replace with curtain** — fabric curtain on a tension rod, pulled closed when needed. Best of both — visually softer, easy to install, fully reversible for renters.
+
+## Common Cloffice Mistakes
+
+- **Forcing a too-deep desk** — measure twice, cut once.
+- **Ignoring ventilation** — closets get warm with a person and a laptop. Crack the door, add a small clip-on fan.
+- **Skipping cable management** — small space + tangled cables looks chaotic immediately. Use cable clips and a single power strip mounted under the desk.
+- **Buying a regular office chair** — they don't fit. See above.
+
+## Frequently Asked Questions
+
+**How much does a cloffice cost to build?**
+$200 to $500 for a budget DIY (custom plank desk, basic chair, lights). $1,000 to $2,500 for a polished setup with custom millwork, premium lighting, and curated decor.
+
+**Will a cloffice add value to my home?**
+Real estate agents in major markets confirm it does — particularly for homes marketed to remote workers. A clean, finished cloffice photographs well on listings and is a differentiator over comparable homes.
+
+**Do I need to ventilate a cloffice?**
+For 1 to 2 hours a day, the existing closet air is fine. For 8-hour daily use, leave the door cracked or install a small fan. A laptop adds about 50W of heat, plus your body adds another 100W — that builds up.
+
+**Can I hide my work at the end of the day?**
+Yes — that's the point. Close the doors (or curtain), and the cloffice disappears into the rest of the room. This is the killer feature most home offices don't have.
+
+**Is a cloffice good for video calls?**
+Surprisingly, yes — the small enclosed space dampens echo dramatically, making audio sound great with even cheap mics. Lighting is the only challenge (see Step 4 above).
+`},{slug:"pegboard-wall-organization-small-home-office",title:"Pegboard Wall Organization Ideas for a Small Home Office",excerpt:"Eight ways to turn dead wall space into flexible, customizable storage — from tool boards to plant shelves to charging stations — without dominating a tiny room.",category:"Workspace",author:"Mia Collins",authorRole:"Workspace Designer",date:"2026-04-26",readTime:"7 min read",featured:!0,coverColor:"from-amber-500 to-orange-700",image:"https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=1200&h=800&fit=crop&auto=format&q=80",tags:["organization","small-space","home-office","diy","workspace"],content:`
 ## Why Pegboards Work in Small Home Offices
 
 A pegboard turns dead wall space into customizable storage. Unlike floating shelves or built-in cabinets, a pegboard is **rearrangeable**: hooks and bins move in seconds, so your storage layout evolves as your needs change.
