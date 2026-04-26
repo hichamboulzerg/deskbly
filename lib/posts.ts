@@ -14,7 +14,202 @@ export interface Post {
   tags: string[]
 }
 
-export const posts: Post[] = [{slug:"aesthetic-desk-setup-ideas-cozy-home-office",title:"Aesthetic Desk Setup Ideas for a Cozy Home Office in 2026",excerpt:"Seven design moves that turn a sterile desk into a workspace you actually want to sit at — color palettes, layered lighting, plants, texture, and the cozy details that make the difference.",category:"Workspace",author:"Mia Collins",authorRole:"Workspace Designer",date:"2026-04-25",readTime:"8 min read",featured:!0,coverColor:"from-amber-400 to-rose-500",image:"https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=800&fit=crop&auto=format&q=80",tags:["aesthetic","cozy-office","decor","home-office","workspace"],content:`
+export const posts: Post[] = [{slug:"pegboard-wall-organization-small-home-office",title:"Pegboard Wall Organization Ideas for a Small Home Office",excerpt:"Eight ways to turn dead wall space into flexible, customizable storage — from tool boards to plant shelves to charging stations — without dominating a tiny room.",category:"Workspace",author:"Mia Collins",authorRole:"Workspace Designer",date:"2026-04-26",readTime:"7 min read",featured:!0,coverColor:"from-amber-500 to-orange-700",image:"https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=1200&h=800&fit=crop&auto=format&q=80",tags:["organization","small-space","home-office","diy","workspace"],content:`
+## Why Pegboards Work in Small Home Offices
+
+A pegboard turns dead wall space into customizable storage. Unlike floating shelves or built-in cabinets, a pegboard is **rearrangeable**: hooks and bins move in seconds, so your storage layout evolves as your needs change.
+
+For small home offices — apartments, spare-bedroom setups, or shared rooms — that flexibility is gold. The pegboard takes up no floor space, hides nothing important behind doors, and lets you put ten things on a wall that previously held one bad picture frame.
+
+It's also *visually busy*, which can be a feature or a bug depending on your aesthetic. Done well, a pegboard reads as functional and curated. Done poorly, it reads as a hardware-store reject. The difference is in the layout and the items you choose to hang.
+
+## Choosing the Right Pegboard
+
+Three factors to decide upfront:
+
+- **Material** — wood (warmer, easier on aesthetics), metal (industrial, holds heavier items), or pegboard fabric panels (softer look, lighter capacity).
+- **Size** — for a desk, a 24"×48" board is the standard sweet spot. Smaller (16"×24") works as a focused tool board; larger (36"×48"+) starts dominating the room.
+- **Hole spacing** — 1" centers (most common) accept the widest hook variety. Quarter-inch hole pegboards are restrictive but neater.
+
+Wood pegboards from Wall Control, IKEA Skadis, or Yamazaki are the popular picks for design-conscious offices. They cost more than utility pegboards but the look is dramatically better.
+
+## 8 Pegboard Ideas for a Small Office
+
+### 1. Vertical "Above-Desk" Storage
+
+Mount the pegboard directly above your desk, 4–6 inches above the monitor. Hang the items you reach for daily — pens, scissors, notebook, headphones. The desk surface stays clear; everything you need is within arm's reach.
+
+### 2. Charger and Cable Station
+
+Mount a small shelf on the pegboard with hooks below it. Phone, watch, tablet sit on the shelf; their charging cables drop neatly through hooks. No more cable spaghetti on the desk surface. Pair with our [cable management desk guide](/blog/cable-management-desk-guide) for the rest of the setup.
+
+### 3. Stationery and Tools
+
+Hang scissors, tape dispenser, label maker, USB hub, and small notebooks. These are the items that disappear into desk drawers and get lost. On the pegboard they stay visible and accessible.
+
+### 4. Plant Shelf Integration
+
+Pegboard shelves come in widths from 4" to 12". Add 2–3 small shelves at staggered heights and place trailing plants (pothos, ivy) on each. The plants soften the pegboard's industrial look and frame your monitor with greenery. See [desk plants for focus](/blog/desk-plants-for-focus) for plant picks.
+
+### 5. Headphone and Cable Hooks
+
+A single dedicated hook for over-ear headphones keeps them off the desk and out of the laptop's way. Add a smaller hook for a charging cable so it dangles in place rather than coiling on your desk surface.
+
+### 6. Inspiration / Idea Board
+
+Repurpose part of the pegboard as a moodboard — clip postcards, photos, sketches, references. Use binder clips on hooks to swap content in and out. This works particularly well for creative work where you want references in peripheral vision.
+
+### 7. Document Tray
+
+A wire or wood document tray hung on pegs gives you an "active project" inbox at eye level. Things in the tray are things you need to act on — bills, drafts, mail. Keeps the desk surface for work, not paper management.
+
+### 8. The "Everything Wall"
+
+The all-in approach. Use a 36"×48" pegboard as the entire back wall of the desk, with shelves, hooks, baskets, plants, art, and lighting all integrated. This requires curation — three or four colors max — to avoid visual chaos. When done well, it becomes the focal point of the room.
+
+## DIY vs. Buy
+
+**Buying a pegboard kit** ($60–$200) gets you the board, mounting hardware, and a starter set of hooks. IKEA Skadis is the most popular entry; Wall Control is the upgrade if you need more weight capacity.
+
+**DIY** (~$30 plus your time) means a hardware-store pegboard sheet plus your own hooks. Cheaper but the standard hardware-store look is hard to escape unless you paint and trim it.
+
+For most home offices, a pre-made kit is worth the markup.
+
+## Installation Tips
+
+- **Find studs.** A loaded pegboard can hold 30+ pounds. Drywall anchors will eventually fail.
+- **Leave 1/2" gap** between the wall and the board. Standard pegboard mounts include spacers — don't skip them, hooks need clearance to insert.
+- **Mount it level.** A crooked pegboard reads as messy no matter how nice the items on it.
+- **Start sparse.** Hang the 4–5 items you actually use daily, then add over weeks as needs reveal themselves. Empty pegboard space is fine. Cluttered pegboard isn't.
+
+## Frequently Asked Questions
+
+**How much weight can a pegboard hold?**
+Wall Control metal pegboards are rated to 200 lbs distributed. IKEA Skadis is rated lower (~10 lbs per hook, ~50 lbs total board). For a home office, you'll never approach those limits.
+
+**Can renters install a pegboard?**
+Most kits use 4–6 small wall screws. Patching the holes when you move out takes 10 minutes with spackle and white paint. Some renter-friendly options use 3M Command strips for very light loads (under 5 lbs total) but won't hold most useful pegboard layouts.
+
+**What's the best pegboard color?**
+For most home offices: **white** if your walls are warm-toned, or **wood** if you want to add warmth. Black pegboards look great in industrial setups but can darken a small room visually. Avoid bright colors — the items on the board provide enough visual interest already.
+
+**How do I keep a pegboard from looking cluttered?**
+Stick to a 3-color palette for the items on the board, leave at least 30% of the board empty, and group items in horizontal rows rather than scattering them. Less *looks like more* on a pegboard.
+
+**Do I need a special desk to put a pegboard above?**
+No — any wall works. Common placement is directly above a 60" or 72" desk with the pegboard centered. If your desk is against a window, mount the pegboard on a side wall instead.
+`},{slug:"best-blue-light-glasses-computer-work-2026",title:"Best Blue Light Glasses for Computer Work in 2026 (Honest Review)",excerpt:"What blue light glasses actually do, what they don't, and the five pairs worth buying — written by someone who read the research instead of the marketing copy.",category:"Gear",author:"James Park",authorRole:"Tech Reviewer",date:"2026-04-25",readTime:"8 min read",featured:!1,coverColor:"from-indigo-500 to-purple-700",image:"https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&h=800&fit=crop&auto=format&q=80",tags:["eye-health","glasses","gear-review","health","home-office"],content:`
+## What Blue Light Glasses Actually Do (and What They Don't)
+
+Walk into any optical store and you'll see "computer glasses" or "blue light glasses" pitched as the cure for digital eye strain. The marketing has been so aggressive for so long that most people assume the science is settled. It isn't.
+
+Here's what the research actually says:
+
+- **Reduce eye strain?** Multiple meta-analyses (most prominently a 2023 *Cochrane Database* review) found **no significant evidence** that blue-light-blocking glasses reduce eye strain compared to clear lenses. Eye strain comes from staring at one focal distance for hours, dry-eye from reduced blinking, and ambient lighting issues — not from the wavelength of light hitting your eye.
+- **Improve sleep?** This is where the science is real. Blue light suppresses melatonin production, the hormone that signals your body to sleep. **Wearing blue-light-blocking glasses 2–3 hours before bed** can improve sleep latency and quality, especially for users who scroll phones in bed. Studies on shift workers and adolescents have shown measurable benefits.
+- **Prevent macular damage?** No human evidence. Some lab studies on isolated cells suggest blue light may contribute to retinal stress, but no real-world study has shown blue-light glasses prevent any eye disease.
+
+Translation: **buy them for sleep, not for eye comfort during the workday.**
+
+## Why Buy Them Anyway
+
+Despite the eye-strain marketing being shaky, blue light glasses still have a legitimate place in a home office:
+
+- **Evening computer use** — if you finish your workday after 7 PM and still face a screen, blue-light blocking around the ~470 nm wavelength helps your circadian rhythm.
+- **Late-night browsing** — phones are the worst offenders for blue light exposure within 2 hours of bedtime.
+- **Combined with mild reading correction** — many "computer glasses" double as low-power readers (+0.50, +0.75 diopters) that reduce focus strain on screens at typical desk distance.
+
+If you're under 35 with no sleep issues and only use screens during daytime, you probably don't need blue light glasses at all. Better solutions to eye strain are covered in our [reduce eye strain working from home guide](/blog/reduce-eye-strain-working-from-home).
+
+## What to Look For
+
+- **Blocking percentage** — clear-lens glasses block 5–15% of blue light (better than nothing for evening). Yellow- or amber-tinted lenses block 50–98% (better for sleep, but distort screen color significantly).
+- **Anti-reflective coating** — reduces glare from monitors and overhead lights. Worth more than the blue-light filter for actual daytime comfort.
+- **Frame fit** — like any glasses, fit matters more than the lens technology. Ill-fitting frames slide, pinch, or sit too far from the eyes to be useful.
+- **Optional reading prescription** — if you're 35+, a +0.50 to +1.00 diopter "computer reading" boost reduces focus strain and is genuinely helpful. Available without a prescription on most online glasses retailers.
+
+## Top Picks for 2026
+
+### 1. Felix Gray Faraday — Best Overall
+
+Felix Gray nailed the design-frames-for-screen-workers niche. Faraday is their bestseller — clear lenses with subtle blue-blocking, anti-reflective coating, and frames that look like real glasses, not gamer accessories.
+
+- **Blue light blocking:** ~15% (clear lens, low distortion)
+- **Lens features:** Anti-reflective, anti-glare, scratch-resistant
+- **Frame:** Acetate, classic round/oval shapes
+- **Price:** ~$95
+
+The design is the differentiator. They look like Warby Parker frames, not "tech accessory."
+
+### 2. Gunnar Optiks Intercept — Best for Heavy Evening Use
+
+Gunnar's amber-tinted lenses block ~65% of blue light — the trade-off is that screens look subtly yellow. For dedicated evening use (gaming, late work sessions, scrolling before bed), the blocking is worth the color shift.
+
+- **Blue light blocking:** ~65% amber tint
+- **Lens features:** Anti-reflective, mild +0.20 diopter boost
+- **Frame:** Lightweight nylon
+- **Price:** ~$80
+
+Note: don't use these during creative color work. Photo editing, design, video — the tint will throw your color judgment off.
+
+### 3. Warby Parker (with blue-light add-on) — Best Mainstream Option
+
+Warby Parker isn't a blue-light specialist but lets you add blue-light blocking to any of their frames for a small upcharge. If you care more about how the glasses look than peak blocking percentage, this is the path.
+
+- **Blue light blocking:** ~10–15% (clear lens)
+- **Lens features:** Anti-reflective standard, optional reading boost
+- **Frame:** 200+ frames in their catalog
+- **Price:** Frames from $95, blue-light add-on +$50
+
+### 4. Amazon Basics Blue Light Glasses — Best Budget
+
+For testing whether blue light glasses make any difference for you, $20 unbranded glasses do the job. Don't expect premium build, but the blocking percentage is comparable to the $95 alternatives.
+
+- **Blue light blocking:** ~30% claimed
+- **Lens features:** Basic anti-reflective
+- **Frame:** Plastic, multiple shapes
+- **Price:** ~$20
+
+Treat this as a "test the concept" purchase. If they help, upgrade to a Felix Gray.
+
+### 5. Eyebuydirect Blue Light Glasses — Best for Prescription Wearers
+
+If you already need prescription glasses, Eyebuydirect adds blue-light coating to any prescription order for $19. This is significantly cheaper than getting blue-light glasses from your eye doctor's office (often $150+).
+
+- **Blue light blocking:** ~25%
+- **Frame:** Hundreds of options
+- **Price:** Frames from $30, with prescription + blue-light coating typically $80–$120 total
+
+## Other Things That Help Eye Strain (More Than Blue Light Glasses)
+
+This is the honest section. If you have screen-induced eye strain, the highest-leverage fixes are:
+
+- **The 20-20-20 rule** — every 20 minutes, look at something 20 feet away for 20 seconds.
+- **Monitor distance** — at least an arm's length from your face.
+- **Monitor height** — top of the screen at or just below eye level.
+- **Ambient lighting** — never use a screen in a dark room. Add a desk lamp or [bias lighting](/blog/monitor-light-bar-vs-desk-lamp) behind the monitor.
+- **Artificial tears** — staring at screens reduces blink rate by ~60%. Lubricating eye drops 2–3 times a day are remarkably effective.
+- **Annual eye exam** — most "eye strain" is uncorrected refractive error.
+
+If you've optimized all of the above and still have eye strain, *then* try blue-light glasses. They're the smallest lever, not the first.
+
+## Frequently Asked Questions
+
+**Do blue light glasses really work?**
+For sleep quality (when worn 2–3 hours before bed), yes. For daytime eye-strain reduction, the evidence is weak. Most "eye strain relief" comes from the anti-reflective coating, not the blue-light filter.
+
+**Should I wear blue light glasses all day?**
+Probably not. There's some emerging concern that all-day blocking of normal daylight blue exposure may disrupt circadian rhythm in the *wrong* direction. Save them for evening or after-dark screen time.
+
+**Can blue light glasses replace regular glasses?**
+Only if they include your actual prescription. "Computer glasses" with a small +0.50 boost can help over-35s with mild presbyopia, but they're not a substitute for a real eye exam.
+
+**Are screen filters or "Night Shift" mode just as good?**
+For sleep purposes, software-based blue-light reduction (Night Shift on iOS/macOS, Night Light on Windows, f.lux) does roughly the same thing as glasses, for free. Use both for maximum effect.
+
+**What's the difference between $20 and $100 blue light glasses?**
+Frame quality, anti-reflective coating quality, and build durability — not blocking percentage. The $20 pair will block similar amounts of blue light. They'll just feel cheaper, scratch faster, and break sooner.
+`},{slug:"aesthetic-desk-setup-ideas-cozy-home-office",title:"Aesthetic Desk Setup Ideas for a Cozy Home Office in 2026",excerpt:"Seven design moves that turn a sterile desk into a workspace you actually want to sit at — color palettes, layered lighting, plants, texture, and the cozy details that make the difference.",category:"Workspace",author:"Mia Collins",authorRole:"Workspace Designer",date:"2026-04-25",readTime:"8 min read",featured:!0,coverColor:"from-amber-400 to-rose-500",image:"https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=800&fit=crop&auto=format&q=80",tags:["aesthetic","cozy-office","decor","home-office","workspace"],content:`
 ## Why "Aesthetic" Matters More Than You Think
 
 Most desk-setup advice focuses on ergonomics, productivity, or gear specs. Those things matter — but if you genuinely don't *like* your workspace, you'll spend the day distracted, antsy, and counting the minutes until you can leave it. A workspace you actually want to sit at is its own kind of productivity tool.
