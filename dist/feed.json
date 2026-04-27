@@ -9,6 +9,50 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://deskbly.com/blog/how-to-make-zoom-calls-look-professional",
+      "url": "https://deskbly.com/blog/how-to-make-zoom-calls-look-professional",
+      "title": "How to Make Zoom Calls Look Professional: Webcam, Lighting & Audio Setup in 2026",
+      "summary": "Three things separate a sloppy video call from a polished one — webcam, lighting, audio — and most people get one right and ignore the other two. Here's the 30-minute fix.",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-04-26T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "James Park"
+        }
+      ],
+      "tags": [
+        "Gear",
+        "video-calls",
+        "remote-work",
+        "webcam",
+        "lighting",
+        "audio",
+        "gear-review"
+      ]
+    },
+    {
+      "id": "https://deskbly.com/blog/cloffice-setup-tiny-home-office-closet",
+      "url": "https://deskbly.com/blog/cloffice-setup-tiny-home-office-closet",
+      "title": "Cloffice Setup: How to Build a Tiny Home Office in a Closet",
+      "summary": "The closet-office trend is having a moment for a reason — you get a real, closeable workspace without sacrificing a bedroom. Here's how to plan, build, and finish one in a weekend.",
+      "image": "https://images.unsplash.com/photo-1513506003901-1e6a35359f94?w=1200&h=800&fit=crop&auto=format&q=80",
+      "date_published": "2026-04-26T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Mia Collins"
+        }
+      ],
+      "tags": [
+        "Workspace",
+        "small-space",
+        "remote-work",
+        "diy",
+        "cloffice",
+        "home-office",
+        "workspace"
+      ]
+    },
+    {
       "id": "https://deskbly.com/blog/pegboard-wall-organization-small-home-office",
       "url": "https://deskbly.com/blog/pegboard-wall-organization-small-home-office",
       "title": "Pegboard Wall Organization Ideas for a Small Home Office",

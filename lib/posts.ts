@@ -14,7 +14,246 @@ export interface Post {
   tags: string[]
 }
 
-export const posts: Post[] = [{slug:"how-to-make-zoom-calls-look-professional",title:"How to Make Zoom Calls Look Professional: Webcam, Lighting & Audio Setup in 2026",excerpt:"Three things separate a sloppy video call from a polished one — webcam, lighting, audio — and most people get one right and ignore the other two. Here's the 30-minute fix.",category:"Gear",author:"James Park",authorRole:"Tech Reviewer",date:"2026-04-26",readTime:"9 min read",featured:!0,coverColor:"from-blue-500 to-violet-700",image:"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=800&fit=crop&auto=format&q=80",tags:["video-calls","remote-work","webcam","lighting","audio","gear-review"],content:`
+export const posts: Post[] = [{slug:"how-to-soundproof-home-office-renter-friendly",title:"How to Soundproof a Home Office: A Renter-Friendly Guide for 2026",excerpt:"You don't need construction-grade soundproofing — you need sound treatment. Here's the renter-friendly playbook that takes a noisy room to professional video-call quality for under $200.",category:"Workspace",author:"Mia Collins",authorRole:"Workspace Designer",date:"2026-04-27",readTime:"8 min read",featured:!0,coverColor:"from-stone-500 to-zinc-700",image:"https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=800&fit=crop&auto=format&q=80",tags:["soundproofing","acoustics","home-office","renter-friendly","diy"],content:`
+## Why Soundproofing Matters More Than You Think
+
+If you do video calls from home, share an apartment with roommates, live near a busy street, or have a family member who plays loud music — your audio quality, focus, and stress levels are all suffering from sound you've stopped consciously hearing. The brain processes background noise even when you're not aware of it. By 4 PM, you're tired in a way that's hard to explain.
+
+The good news: real soundproofing is expensive and permanent (think drywall, decoupled studs, mass-loaded vinyl). But you don't need real soundproofing for a home office. You need **sound treatment** — different concept, dramatically cheaper, completely renter-friendly.
+
+This guide walks through the renter-friendly sound-treatment moves that actually work, ranked by impact per dollar.
+
+## Soundproofing vs Sound Treatment
+
+Critical distinction:
+
+- **Soundproofing** — physically blocks sound from entering or leaving a room. Requires construction.
+- **Sound treatment** — reduces echo and reverberation INSIDE a room. Just requires soft materials.
+
+For a home office, 90% of audio problems people complain about are *echo and reverberation*, not external noise. Once you treat the room, your microphone sounds clear, video calls sound professional, and you stop noticing background noise as much because there's nothing for it to bounce off.
+
+## Step 1: Soft Furniture First
+
+Hardware-store soundproofing panels are great, but free fixes come first.
+
+The simplest sound-treatment move: **add soft surfaces**. Hard floors, bare walls, and large windows all reflect sound. Soft surfaces absorb it.
+
+Easy wins, in order:
+
+- **A rug under your desk** — biggest single upgrade. A 5×7 rug on hard floors reduces echo by 30 to 40%.
+- **Curtains over windows** — particularly if your monitor faces the window. Floor-to-ceiling fabric curtains absorb a wide frequency range.
+- **A throw blanket on your office chair** — sounds silly, helps significantly because chairs are often the largest hard surface near the microphone.
+- **A bookshelf full of books** — books are unevenly shaped, and unevenness scatters sound, which kills echo. A full bookshelf is essentially a free acoustic diffuser.
+
+Try these four moves first. Most people don't need anything else.
+
+## Step 2: Acoustic Panels (the affordable upgrade)
+
+If video-call quality still isn't where you want it, add 4–8 acoustic foam panels on the wall behind and beside the microphone.
+
+Where to place them:
+
+- **Behind your desk** — sound from your voice bounces off this wall and creates the worst echo
+- **Side walls at ear level** — early reflections that color your microphone
+- **Ceiling above the desk** (if echo is severe)
+
+What to buy:
+
+- **Foamily Acoustic Panels** — ~$30 for a 12-pack, basic but effective
+- **JBER 6-Pack Hexagon Panels** — ~$35, designer-friendly hexagonal shape
+- **Auralex StudioFoam Wedges** — ~$80 for 24, professional-grade
+- **GIK Acoustics 242 Panel** — ~$90 per panel, the audiophile choice (overkill for most home offices)
+
+For renters, attach with **3M Command Strips** or **Velcro tabs** — both leave no wall damage.
+
+## Step 3: Door and Window Treatment
+
+If external noise is the actual problem (not just echo), the door and windows are the leak.
+
+For doors:
+
+- **Door sweep** ($10–$20) — closes the gap at the bottom. Single biggest noise reducer for $10.
+- **Weatherstripping foam tape** — seals gaps around the door frame. Apartment-friendly, peels off cleanly.
+- **Heavy curtain over the door** — extreme but works. Hang on a tension rod inside the office.
+
+For windows:
+
+- **Acoustic curtains** (Nicetown Blackout Soundproof, Yakamok) — heavier than blackout curtains, dampen mid-frequency street noise
+- **Window inserts** (Indow, Magnetite) — clear acrylic panels that mount inside the window frame, dramatically cut traffic noise. Renter-friendly because they're removable. ~$30–$100 per window.
+
+## Step 4: Microphone-Specific Tricks
+
+Sometimes the audio problem is the microphone setup, not the room.
+
+- **Directional / cardioid microphone** — picks up only the front, ignores room noise. The Shure MV7 and Blue Yeti (in cardioid mode) are good options. See our [Zoom call setup guide](/blog/how-to-make-zoom-calls-look-professional) for picks.
+- **Microphone arm with shock mount** — keeps the mic close to your mouth (close-mic'ing dramatically reduces room noise pickup) and isolates it from desk vibrations
+- **Pop filter** — stops plosives (p, b, t sounds) hitting the mic
+- **Software noise suppression** — Krisp, Nvidia Broadcast, or Zoom's built-in "Suppress Background Noise" set to High. Free or cheap, sometimes does more than expensive panels.
+
+## Step 5: When to Build a Vocal Booth (Probably Not)
+
+Home recording forums love DIY vocal booths — closets stuffed with foam, blanket forts over your desk. For a home office, this is overkill. The above steps will get you 90% of the way there. Save the vocal booth for if you start a podcast.
+
+The exception: if you're an ASMR or voice-acting creator, a small treated closet (see our [cloffice setup guide](/blog/cloffice-setup-tiny-home-office-closet) for the structure, then add panels) is genuinely the right answer.
+
+## DIY vs Buy: Cost vs Reduction
+
+| Approach | Cost | Echo / noise reduction |
+|---|---|---|
+| Soft furniture only | $0–$100 | 30–40% echo |
+| + Acoustic foam panels | $30–$100 | 60–70% echo |
+| + Door sweep + weatherstrip | $20–$40 | 20–30% external noise |
+| + Acoustic curtains | $80–$200 | ~30% external noise |
+| + Window inserts | $200–$500 | 50–70% external noise |
+
+A $150 budget gets most home offices to "video calls sound professional, room feels calmer."
+
+## Common Soundproofing Myths
+
+- **"Egg cartons work"** — They don't. Pulp absorbs almost no sound. Skip.
+- **"Soundproof paint"** — Marketing scam. Has no measurable acoustic effect.
+- **"Foam panels block neighbor noise"** — They don't block, they absorb. Different problem. For neighbor noise, you need mass (mass-loaded vinyl, drywall layers) — not foam.
+- **"More panels = better"** — Up to a point. After ~30% wall coverage, additional panels stop adding meaningful effect.
+
+## Frequently Asked Questions
+
+**What's the cheapest single upgrade?**
+A door sweep, $10–$20 from any hardware store. Cuts the audio leak under your office door dramatically. Single best dollar-for-dollar move.
+
+**Will sound treatment help with my noisy upstairs neighbors?**
+Not much. Footstep noise is impact noise — it travels through the structure, not through the air. Sound treatment addresses airborne sound. For impact noise, you'd need ceiling treatment, which is rarely renter-friendly.
+
+**Do I need professional installation?**
+No. Acoustic foam, door sweeps, and curtains are all DIY in 30–60 minutes total.
+
+**Can I take the panels with me when I move?**
+If you used Command Strips or Velcro: yes, they peel off. Adhesive panels stuck directly to drywall: probably not.
+
+**Is there a "soundproof" rating I should look for?**
+For panels: NRC (Noise Reduction Coefficient) of 0.7 or higher means good absorption. Most affordable foam panels are NRC 0.5–0.7, which is fine for home-office use.
+`},{slug:"best-standing-desk-converter-small-spaces-2026",title:"Best Standing Desk Converter for Small Spaces in 2026",excerpt:"Standing desk converters cost a third of a full electric desk and don't require replacing your existing setup. Here are the five worth buying — plus when a converter is the wrong choice.",category:"Gear",author:"James Park",authorRole:"Tech Reviewer",date:"2026-04-27",readTime:"7 min read",featured:!1,coverColor:"from-teal-500 to-cyan-700",image:"https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?w=1200&h=800&fit=crop&auto=format&q=80",tags:["standing-desk","gear-review","small-space","ergonomics","home-office"],content:`
+## Why a Converter Instead of a Full Standing Desk
+
+A full electric standing desk runs $400 to $1,200 and replaces your existing desk entirely. A standing desk converter sits *on top of* your current desk, raises a smaller surface up and down, and runs $150 to $400. For most home-office workers — especially renters, apartment-dwellers, or anyone with a perfectly good desk already — the converter is the better economic and practical choice.
+
+The trade-off: converters offer less workspace at standing height than a full standing desk, the keyboard tray sits at a fixed offset from the monitor, and the up-down mechanism is usually manual (gas spring or X-lift) instead of motorized.
+
+For 90% of users, that's an acceptable trade. Here are the converters worth buying in 2026.
+
+## What to Look For
+
+Five things matter:
+
+- **Surface area** — the keyboard tray needs to fit your full keyboard *and* a mouse with elbow room. Aim for at least 30" wide on the keyboard level. The monitor surface above can be smaller.
+- **Lift mechanism** — gas-spring (smoothest, single-handle), X-lift (decent, two-squeeze release), or electric (motorized, more expensive). Manual is fine for most.
+- **Standing height range** — your elbow at 90° when standing should land on the keyboard tray. Most converters max out at 16–19" of lift. Tall users (over 6'2") should look for 19"+.
+- **Stability** — when fully raised, the converter shouldn't wobble when you type. Cheap converters fail here. Check reviews specifically for "wobble at full height."
+- **Footprint when collapsed** — when you sit, the converter is still on your desk. Keep total depth under 22" or it'll dominate a small surface.
+
+## Top Picks for 2026
+
+### 1. Vivo Black Standing Desk Converter — Best Overall
+
+The category benchmark for years. Solid build, smooth gas-spring lift, two-tier surface (monitor on top, keyboard below). Available in 32" and 36" widths.
+
+- **Width:** 32" or 36"
+- **Lift:** Gas spring, single-squeeze handle
+- **Height range:** 6.5" to 16.5"
+- **Stability:** Excellent — minimal wobble even at full height
+- **Price:** ~$160 (32"), ~$200 (36")
+
+If you want one converter and don't want to think about it, this.
+
+### 2. Flexispot M7 — Best for Larger Setups
+
+For users with 27"+ monitors or dual-monitor setups. Surface is larger (35" wide) and the keyboard tray is removable for sit-mode flexibility.
+
+- **Width:** 35"
+- **Lift:** Gas spring
+- **Height range:** 4.7" to 19.7"
+- **Stability:** Very good
+- **Price:** ~$240
+
+The 19.7" lift range matters if you're tall. Most cheap converters top out at 16", which leaves 6'+ users with their arms slightly raised.
+
+### 3. Varidesk Pro Plus 36 — Best Build Quality
+
+Vari makes the most premium converter on the market. Stiffer chassis than competitors, integrated keyboard tray, more refined finish. Trade-off is price.
+
+- **Width:** 36"
+- **Lift:** Spring assist (heavier action than Vivo)
+- **Height range:** Up to 17.5"
+- **Stability:** Best in class
+- **Price:** ~$395
+
+If you'll be raising and lowering 4–6 times a day for years, the Vari justifies its price by lasting longer than 2–3 cycles of cheaper converters.
+
+### 4. Mount-It! MI-7926 — Best Budget Pick
+
+If $200 is too much, the Mount-It at half the price gets you 70% of the experience. Smaller surface, slightly more wobble, but functional.
+
+- **Width:** 32"
+- **Lift:** X-lift, two-handle squeeze
+- **Height range:** 6" to 16.7"
+- **Stability:** Moderate (some wobble at full height with heavy monitors)
+- **Price:** ~$95
+
+Good "test if I'll actually use this" purchase. Upgrade to a Vivo if you find yourself standing more than expected.
+
+### 5. ApexDesk Vortex — Best for Standing-Desk Skeptics
+
+The Vortex is the most "sit-mode friendly" converter on the market. Its keyboard tray slides completely under the monitor surface when not in standing mode, making it nearly invisible at sit height.
+
+- **Width:** 36"
+- **Lift:** X-lift
+- **Height range:** 5" to 16"
+- **Stability:** Good
+- **Price:** ~$180
+
+If your concern is "I don't want a giant block of converter on my desk all day even when I'm sitting," this design solves that.
+
+## Setup Tips for Small Spaces
+
+- **Measure your sit-mode workspace first.** Your converter sits on your desk permanently. If your desk is 48"×24", a 36" converter takes up 75% of the depth.
+- **Center the converter, don't push it back.** Pushing it against the wall puts the monitor too far from your eyes when standing. Center alignment keeps eye-to-screen distance correct in both modes.
+- **Add an [anti-fatigue mat](/blog/best-anti-fatigue-mats-standing-desk) underneath** — non-negotiable. Standing on hard floor for hours is what kills the standing-desk experience.
+
+## When NOT to Buy a Converter
+
+A converter is the wrong choice if:
+
+- **You have a small desk (under 36" wide)** — the converter will eat the entire surface
+- **You'll stand more than 50% of the time** — at high standing percentages, the manual lift/lower routine gets old. Get a full electric standing desk.
+- **You use a desktop tower with monitors mounted on a separate stand** — the converter mostly addresses laptop and small-monitor setups
+- **Your desk is already height-adjustable** — buying a converter is redundant
+
+For full standing-desk picks and proper sit/stand schedules, see our [standing desk guide](/blog/standing-desk-guide).
+
+## How to Use a Converter Correctly
+
+A converter only helps if you actually stand. The mistake most people make: buy the converter, use it once a week, eventually stop. To make standing a habit:
+
+- **Start with a 25/75 schedule.** Stand 15 minutes every hour. Let your body adapt for the first 2 weeks.
+- **Move to 50/50.** After adaptation, alternate hour-on, hour-off.
+- **Default the converter to standing height.** Make sitting the active choice rather than standing — friction reverses motivation.
+
+## Frequently Asked Questions
+
+**Will a converter damage my desk?**
+Most converters weigh 35–50 lbs and have rubber-padded feet. Any sturdy desk handles them. Glass desks are the exception — verify weight rating before placing a converter on glass.
+
+**Can I use a converter with two monitors?**
+Yes for two 24" monitors side-by-side on most 35"+ converters. Three monitors is pushing it; a full standing desk is the better fit.
+
+**Do converters work on standing desks?**
+Defeats the purpose. If you have a height-adjustable desk, you don't need a converter.
+
+**How long does the gas spring last?**
+Quality converters (Vivo, Flexispot, Varidesk) are rated for 20,000+ cycles — 5–10 years of daily use. Budget converters often need spring replacement at year 2–3.
+
+**Can I use any monitor arm with a converter?**
+Some — check whether your converter has a desk-clamp area at the back. Vivo and Flexispot are arm-friendly; Varidesk Pro Plus is not.
+`},{slug:"how-to-make-zoom-calls-look-professional",title:"How to Make Zoom Calls Look Professional: Webcam, Lighting & Audio Setup in 2026",excerpt:"Three things separate a sloppy video call from a polished one — webcam, lighting, audio — and most people get one right and ignore the other two. Here's the 30-minute fix.",category:"Gear",author:"James Park",authorRole:"Tech Reviewer",date:"2026-04-26",readTime:"9 min read",featured:!0,coverColor:"from-blue-500 to-violet-700",image:"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=800&fit=crop&auto=format&q=80",tags:["video-calls","remote-work","webcam","lighting","audio","gear-review"],content:`
 ## Why Your Video-Call Setup Actually Matters
 
 Most remote workers spend 2 to 4 hours a day on video calls. That's roughly 500 hours a year your face — backlit, pixelated, or both — is the only thing separating you from your colleagues. Bad video presence costs you in subtle ways: meetings run longer, your ideas get less attention, and people unconsciously assume you're less prepared.

@@ -5,7 +5,7 @@
     <link>https://deskbly.com</link>
     <description>Gear reviews, workspace design, and productivity habits for people who care about where they work.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2026 11:10:47 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 11:46:05 GMT</lastBuildDate>
     <atom:link href="https://deskbly.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://deskbly.com/icon</url>
@@ -13,6 +13,24 @@
       <link>https://deskbly.com</link>
     </image>
     
+    <item>
+      <title><![CDATA[How to Make Zoom Calls Look Professional: Webcam, Lighting & Audio Setup in 2026]]></title>
+      <link>https://deskbly.com/blog/how-to-make-zoom-calls-look-professional</link>
+      <guid isPermaLink="true">https://deskbly.com/blog/how-to-make-zoom-calls-look-professional</guid>
+      <description><![CDATA[Three things separate a sloppy video call from a polished one — webcam, lighting, audio — and most people get one right and ignore the other two. Here's the 30-minute fix.]]></description>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <author>noreply@deskbly.com (James Park)</author>
+      <category>Gear</category>
+    </item>
+    <item>
+      <title><![CDATA[Cloffice Setup: How to Build a Tiny Home Office in a Closet]]></title>
+      <link>https://deskbly.com/blog/cloffice-setup-tiny-home-office-closet</link>
+      <guid isPermaLink="true">https://deskbly.com/blog/cloffice-setup-tiny-home-office-closet</guid>
+      <description><![CDATA[The closet-office trend is having a moment for a reason — you get a real, closeable workspace without sacrificing a bedroom. Here's how to plan, build, and finish one in a weekend.]]></description>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <author>noreply@deskbly.com (Mia Collins)</author>
+      <category>Workspace</category>
+    </item>
     <item>
       <title><![CDATA[Pegboard Wall Organization Ideas for a Small Home Office]]></title>
       <link>https://deskbly.com/blog/pegboard-wall-organization-small-home-office</link>
