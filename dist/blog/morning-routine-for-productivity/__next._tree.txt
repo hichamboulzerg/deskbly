@@ -1,8 +1,0 @@
-:HL["/_next/static/chunks/15tkn7fsjj9g5.css","style"]
-:HL["/_next/static/media/2a65768255d6b625-s.p.14by5b4al-y~f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=800&fit=crop&auto=format&q=80","image"]
-:HL["https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&auto=format&q=80","image"]
-:HL["https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1200&h=800&fit=crop&auto=format&q=80","image"]
-:HL["https://images.unsplash.com/photo-1545987796-200677ee1011?w=1200&h=800&fit=crop&auto=format&q=80","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"blog","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"morning-routine-for-productivity","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"B9yu8oTssk4E-oOMd9cs7"}
