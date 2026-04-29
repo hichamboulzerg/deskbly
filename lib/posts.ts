@@ -14,7 +14,249 @@ export interface Post {
   tags: string[]
 }
 
-export const posts: Post[] = [{slug:"how-to-soundproof-home-office-renter-friendly",title:"How to Soundproof a Home Office: A Renter-Friendly Guide for 2026",excerpt:"You don't need construction-grade soundproofing — you need sound treatment. Here's the renter-friendly playbook that takes a noisy room to professional video-call quality for under $200.",category:"Workspace",author:"Mia Collins",authorRole:"Workspace Designer",date:"2026-04-27",readTime:"8 min read",featured:!0,coverColor:"from-stone-500 to-zinc-700",image:"https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=800&fit=crop&auto=format&q=80",tags:["soundproofing","acoustics","home-office","renter-friendly","diy"],content:`
+export const posts: Post[] = [{slug:"best-underdesk-treadmill-2026",title:"Best Underdesk Treadmill for 2026: Walking While You Work",excerpt:"An underdesk treadmill at 2 mph adds 8,000 steps to your day without leaving your desk. Here are the five worth buying — plus the ones to skip and how to actually use one without quitting after a week.",category:"Gear",author:"James Park",authorRole:"Tech Reviewer",date:"2026-04-29",readTime:"8 min read",featured:!0,coverColor:"from-emerald-600 to-green-800",image:"https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1200&h=800&fit=crop&auto=format&q=80",tags:["fitness","wellness","gear-review","standing-desk","home-office"],content:`
+## Why Walking While You Work Actually Works
+
+The average remote worker walks 2,000–3,500 steps a day. The general health recommendation is 7,000–10,000. For most people, the gap doesn't get closed at the gym — it gets closed during the workday or it doesn't get closed at all.
+
+An underdesk treadmill running 1.5 to 2 mph during meetings, calls, and reading-heavy work blocks adds **roughly 6,000 to 9,000 steps to a typical 8-hour workday**. Combined with the cardiovascular and metabolic benefits — better blood sugar control, lower resting heart rate, reduced low-back pain from sedentary sitting — this is one of the best return-on-investment health upgrades a desk worker can make.
+
+The catch: most underdesk treadmills are bought, used for two weeks, and then sit in a corner. The five below are the ones that get *kept*, plus a workflow that prevents the abandonment problem.
+
+## What to Look For
+
+Six factors actually matter. Marketing pages obsess over the wrong ones (top speed, incline) and ignore the right ones (noise, weight, slim profile).
+
+- **Top speed: 4 mph is enough.** Anyone running on an underdesk treadmill is doing it wrong (you can't type while running). 2 mph is the work pace; 4 mph is the upper limit for stand-still walking breaks.
+- **Noise level (< 55 dB).** This is the dealbreaker most people don't think about. A 65 dB treadmill drowns out video calls. 55 dB is the threshold below which you can hold a conversation over Zoom.
+- **Weight capacity (250 lb minimum).** Even if you're under, capacity is a proxy for build quality. Sub-220 lb capacity treadmills feel cheap and creak under regular use.
+- **Profile / dimensions.** Aim for under 5" thick when stowed and under 50" long. Anything thicker doesn't fit under a standard 28"-tall desk.
+- **Belt size.** Walking belts are 16"–20" wide, 40"–50" long. Wider/longer is more comfortable but means a bigger machine. Most workdesk-class treadmills are 17"×45".
+- **Remote and Bluetooth.** Walking up to the machine to change speed is a dealbreaker after week 1. A wireless remote (or phone app) is essential.
+
+What does NOT matter: incline (you don't want incline at a desk), built-in screens (you've got a real monitor), heart rate monitor (your phone has one), preset programs (you'll only use 1–2 speeds anyway).
+
+## Top Picks for 2026
+
+### 1. WalkingPad C2 — Best Overall
+
+The WalkingPad single-handedly created this category. The C2 is the latest revision: foldable in half for storage (5.6" thick when folded), 2.5 mph max, ~50 dB noise.
+
+- **Top speed:** 2.5 mph
+- **Noise:** ~50 dB
+- **Weight capacity:** 220 lbs
+- **Profile:** 5.6" folded, 1.7" running
+- **Belt:** 16.5" × 47.6"
+- **Connectivity:** Remote + KS Fit app
+- **Price:** ~$400
+
+The folding hinge means you can stow it vertically in a closet — no other treadmill in this class can. Trade-off: lower weight capacity than non-folding competitors.
+
+### 2. WalkingPad P1 — Best for Light Use
+
+If $400 is too much and you're under 200 lbs, the P1 is the slim entry point. Same brand, lighter build, $250–$300 depending on sale.
+
+- **Top speed:** 3.7 mph
+- **Noise:** ~55 dB
+- **Weight capacity:** 220 lbs
+- **Profile:** 5.0" thick (no folding)
+- **Belt:** 16.5" × 47.4"
+- **Price:** ~$280
+
+The P1 doesn't fold — you slide it under a couch or bed. For studio apartments, this matters less than you'd think.
+
+### 3. Egofit Walker Pro — Best for Tall Users
+
+Most underdesk treadmills are too short for users 6'2" and up — your stride at 2 mph hits the front of the belt. Egofit's belt is 4 inches longer, addressing this exactly.
+
+- **Top speed:** 3.7 mph
+- **Noise:** ~52 dB
+- **Weight capacity:** 265 lbs
+- **Profile:** Slim, 4.6" thick
+- **Belt:** 17.7" × 51"
+- **Price:** ~$430
+
+Tall users almost universally rate this above the WalkingPad after head-to-head testing.
+
+### 4. UMAY Treadmill — Best Budget
+
+Around $200, UMAY is the cheapest treadmill that doesn't feel cheap. It's louder than premium options (~58 dB) and the remote is bare-bones, but the motor is reliable and the build holds up under 220 lbs.
+
+- **Top speed:** 4 mph
+- **Noise:** ~58 dB
+- **Weight capacity:** 220 lbs
+- **Profile:** 5" thick
+- **Belt:** 17" × 43"
+- **Price:** ~$200
+
+If the WalkingPad is sold out (frequently the case) and you don't want to wait, UMAY is the next-best option at this price.
+
+### 5. Sunny Health & Fitness ASUNA Slimline — Best Quality Build
+
+Quieter motor than the WalkingPad and a higher 285-lb weight capacity. Slightly thicker (5.5") so it won't slide under a low couch, but the build feels noticeably more durable.
+
+- **Top speed:** 8 mph (way overkill for under-desk; useful for occasional cardio breaks)
+- **Noise:** ~50 dB
+- **Weight capacity:** 285 lbs
+- **Profile:** 5.5" thick
+- **Belt:** 17" × 49"
+- **Price:** ~$500
+
+Best long-term durability pick. The price is steep but it's the only one in this list rated for users up to 285 lbs.
+
+## How to Actually Use One (Without Quitting)
+
+The reason most underdesk treadmills get abandoned: people start at 8 hours/day from day one, hate it, and stop forever. The right pattern:
+
+- **Week 1: 30 minutes/day at 1.5 mph.** Use it during reading-heavy work, podcast meetings, or non-typing tasks. Don't try to type at full speed yet.
+- **Week 2: 60–90 min/day.** Same low-speed reading-only periods, more of them.
+- **Week 3+: 2–4 hours/day.** Start typing while walking. You'll be surprisingly competent at 1.5 mph after 2 weeks of adaptation.
+- **Top out at 4–5 hours/day.** Beyond that, your feet and ankles will accumulate fatigue. You need sit/stand variety even with a treadmill.
+
+Pair the treadmill with a [standing desk converter](/blog/best-standing-desk-converter-small-spaces-2026) so you can also stand still or sit when needed. The three modes — sit, stand, walk — together prevent any single posture from getting overdone.
+
+## Common Mistakes
+
+- **Trying to run.** You can't type while running. Cap your speed at ~2 mph for working hours.
+- **Starting too fast on day 1.** 4 mph for an hour will leave you sore and you'll stop. Build up.
+- **Wrong shoes.** Bare socks slip. Hard-soled shoes are uncomfortable. Use running shoes or trail-running shoes.
+- **Ignoring the belt.** Treadmill belts need silicone lubrication every 2–3 months. Skipping this kills the motor at year 2–3.
+- **Using it during typing-heavy work.** You'll make more mistakes. Use it for meetings, reading, calls — not deep focus typing.
+
+## Frequently Asked Questions
+
+**Will my downstairs neighbors hear it?**
+Yes if you don't use a mat. A 1/2"-thick rubber treadmill mat (~$50) under the deck dampens vibration enough that most apartment neighbors won't notice 2 mph walking. Running speeds are a different story.
+
+**Can I put a treadmill on top of carpet?**
+Yes, but use a treadmill mat anyway — carpet fibers get pulled into the belt over time and shorten the motor's life.
+
+**How long do these last?**
+WalkingPad and Egofit are rated for 2,000+ hours of use — about 3 years of daily 2-hour walking. Cheaper models (UMAY, Goyouth) often die at year 1.5.
+
+**Are they really quieter than gym treadmills?**
+Yes — small motors with belts running at low speeds are dramatically quieter than commercial-grade equipment. WalkingPads at 2 mph are quieter than most ceiling fans.
+
+**Do I need a special desk?**
+A standing desk or [standing desk converter](/blog/best-standing-desk-converter-small-spaces-2026) raised to standing height. Walking under a sitting desk doesn't work — your knees hit the underside.
+`},{slug:"reading-nook-home-office-combo-aesthetic-ideas",title:"Reading Nook and Home Office Combo: Aesthetic Ideas for Small Spaces",excerpt:"You don't need separate rooms for "where I work" and "where I read." Six ways to combine a reading nook and a home office into a single small space — without making either feel cramped.",category:"Workspace",author:"Mia Collins",authorRole:"Workspace Designer",date:"2026-04-29",readTime:"8 min read",featured:!1,coverColor:"from-rose-500 to-amber-600",image:"https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=1200&h=800&fit=crop&auto=format&q=80",tags:["aesthetic","small-space","decor","home-office","reading-nook","cozy-office"],content:`
+## Why a Combined Office + Reading Nook Works
+
+For a long time, design advice insisted on separating "active" and "passive" zones — the desk in one place, the reading chair somewhere else, ideally with a wall between them. That advice assumes you have multiple rooms to play with. Most remote workers don't.
+
+The combined office + reading nook flips the constraint into a feature: one cozy corner does double duty, and the transition from "working" to "reading" becomes literally a two-step move from desk chair to lounge chair. The psychological boundary between work mode and rest mode is built into the space.
+
+Done well, the combined corner feels intentional and lived-in — not like one function got compressed. Done poorly, it's a desk with an awkward chair next to it. Here's how to land in the first category.
+
+## Layout Principles
+
+Three rules to start:
+
+- **Designate two clear zones, not a hybrid blob.** Even in 50 square feet, the reading area and the desk area should be visually distinct — different rugs, different lighting, different chair styles.
+- **The reading zone is the *destination*, the desk is the *station*.** Most people do this backwards: gorgeous desk, cramped reading corner. Reverse it. The reading nook should be the inviting part of the room; the desk should be functional.
+- **One shared light source ties them together.** A single floor lamp positioned between the two zones (or a hanging pendant centered above) creates visual unity even though the zones serve different purposes.
+
+## Choosing the Right Corner
+
+Not every corner works equally well. Look for:
+
+- **Natural light from one side.** Window-adjacent corners are easiest — both desk work and reading benefit.
+- **Two solid walls meeting.** The corner anchors the reading chair (so it doesn't float) and gives the desk a backstop.
+- **Some traffic separation.** A corner away from the main hallway/door is calmer for reading. Walking-traffic in your peripheral vision kills focus.
+
+What to avoid: corners with the room's only doorway nearby, or under air vents that drop cold air on you.
+
+## Furniture: Three Reading-Seat Options
+
+The reading seat is the centerpiece. Pick the one that fits your space:
+
+### Lounge chair (best for most rooms)
+
+A single accent chair — wing chair, mid-century lounger, or upholstered armchair — with a small side table. Compact, comfortable, photographs well. The classic "reading chair."
+
+Picks: IKEA POÄNG ($120), Article Sven ($1,400), thrifted vintage. Skip cheap fabric brands — they look great year 1, threadbare year 2.
+
+### Daybed or chaise (best for larger corners)
+
+A daybed (essentially a single mattress on a frame) doubles as a reading lounge during the day and a guest bed at night. Brilliant for studios and small apartments.
+
+Picks: West Elm Henry Daybed, IKEA HEMNES daybed, vintage rattan finds. Add 4–6 throw pillows.
+
+### Window seat (best if your corner has a window)
+
+A built-in or floating bench under the window with cushions and pillows. Most permanent of the three, but unbeatable if you have the right window.
+
+Even renters can fake this with a low storage bench plus a custom-cut foam cushion (about $60 in materials).
+
+## Lighting Strategy
+
+The combined corner needs two distinct lighting conditions: bright work light at the desk, warm reading light at the chair.
+
+- **Desk: task lamp at the work surface** — 3500K neutral white, see our [home office lighting guide](/blog/home-office-lighting-guide).
+- **Reading chair: floor lamp or wall sconce, 2700K warm** — placement matters. Light should come from over your shoulder onto the page, not in front of you.
+- **Ambient: one shared "room glow"** — table lamp on a shelf, candle, or LED strip. Stays at the same color temp as the reading lamp (warm).
+
+Switch off the desk lamp completely when you move to the reading zone. The light change reinforces the mode change psychologically.
+
+## Storage That Serves Both
+
+The smartest move for combined spaces: storage that's used by both functions.
+
+- **A bookcase between the two zones.** Books are reading material AND act as visual barrier between the desk and lounge chair. The IKEA BILLY or KALLAX is the workhorse here.
+- **A side table that's also a paper inbox.** A 14"–18" round side table next to the reading chair holds your current book, coffee, and the notebook you grab when an idea strikes.
+- **Under-desk drawers for both office supplies AND reading lights.** A bedside-style drawer under the desk holds pens during the workday and a reading lamp battery, charger cable, and reading journal at night.
+
+For more on minimal-clutter techniques, see our [desk minimalism guide](/blog/desk-minimalism-guide).
+
+## Aesthetic Touches That Punch Above Their Weight
+
+Five things that consistently make a combined nook feel intentional:
+
+- **A small rug under JUST the reading chair** — defines the zone visually
+- **One textile layer per zone** — throw blanket on the chair, leather pad on the desk
+- **A small plant in the reading zone** — softens the corner. See our [desk plants for focus](/blog/desk-plants-for-focus).
+- **One framed piece over each zone** — different art per zone visually separates them while the frame style ties them together
+- **A floor lamp arching from one zone toward the other** — physically connects the two functions
+
+For more on building a cozy desk feel, our [aesthetic desk setup guide](/blog/aesthetic-desk-setup-ideas-cozy-home-office) covers the design moves in depth.
+
+## Six Design Archetypes (pick one, commit)
+
+Pinterest's home-office boards are full of mash-ups, but the ones that read as designed (not improvised) commit to one aesthetic:
+
+1. **Cottage scholar** — wood desk, leather wing chair, dark walls, brass lamps, full bookshelves
+2. **Linen minimal** — natural oak desk, cream chair, ivory walls, a single sculptural plant, no decoration
+3. **Mid-century cozy** — walnut desk, mid-century lounge chair, mustard-yellow accents, geometric rug
+4. **Library romantic** — built-in bookshelves, deep green walls, a velvet reading chair, vintage rugs
+5. **Bohemian craft** — patterned rug, woven basket storage, plants everywhere, second-hand desk, macramé wall art
+6. **Japanese tea-room** — low desk, floor cushion + low lounge chair, paper lantern, sliding screen as room divider
+
+Pick one. Buy ONLY items that fit the chosen archetype. The combined space will photograph and feel cohesive.
+
+## Common Mistakes
+
+- **Two competing aesthetics in one corner.** A modern white desk next to a Victorian wingback reads as "couldn't decide."
+- **Putting the reading chair within reach of the desk.** Tempting to lean over and grab the laptop while reading. Defeats the boundary. Place the chair so you have to *get up* to reach the desk.
+- **Forgetting the floor.** Bare floor between two zones makes them feel like an unfinished room. A single rug spanning both zones — or two distinct rugs — finishes the look.
+- **Over-stuffing the reading nook.** Five throw pillows is the cap. Beyond that, the chair is unsittable.
+
+## Frequently Asked Questions
+
+**How small a corner can fit both?**
+Minimum 6'×6' (36 sq ft) — desk on one wall, reading chair perpendicular. Below that, you're choosing one or the other.
+
+**Will a reading chair next to my desk distract me from work?**
+Counterintuitively, no. Having a designated rest zone in the same room often *increases* desk focus, because there's a clear destination for "not working."
+
+**What's the cheapest combined setup?**
+~$300: thrifted lounge chair ($75), IKEA LINNMON desk top ($30) on ALEX legs ($90), one rug ($60), one floor lamp ($45).
+
+**Can a small bedroom work?**
+Yes — guest bedrooms convert beautifully. The bed becomes the reading zone (sit on it, read), the desk goes against an opposite wall.
+
+**How do I handle video calls when there's a comfy chair behind me?**
+Either angle the desk so the chair is out of frame, or blur your background. A perfectly made daybed actually looks great on camera.
+`},{slug:"how-to-soundproof-home-office-renter-friendly",title:"How to Soundproof a Home Office: A Renter-Friendly Guide for 2026",excerpt:"You don't need construction-grade soundproofing — you need sound treatment. Here's the renter-friendly playbook that takes a noisy room to professional video-call quality for under $200.",category:"Workspace",author:"Mia Collins",authorRole:"Workspace Designer",date:"2026-04-27",readTime:"8 min read",featured:!0,coverColor:"from-stone-500 to-zinc-700",image:"https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=800&fit=crop&auto=format&q=80",tags:["soundproofing","acoustics","home-office","renter-friendly","diy"],content:`
 ## Why Soundproofing Matters More Than You Think
 
 If you do video calls from home, share an apartment with roommates, live near a busy street, or have a family member who plays loud music — your audio quality, focus, and stress levels are all suffering from sound you've stopped consciously hearing. The brain processes background noise even when you're not aware of it. By 4 PM, you're tired in a way that's hard to explain.
