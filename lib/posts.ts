@@ -14,7 +14,269 @@ export interface Post {
   tags: string[]
 }
 
-export const posts: Post[] = [{slug:"best-underdesk-treadmill-2026",title:"Best Underdesk Treadmill for 2026: Walking While You Work",excerpt:"An underdesk treadmill at 2 mph adds 8,000 steps to your day without leaving your desk. Here are the five worth buying — plus the ones to skip and how to actually use one without quitting after a week.",category:"Gear",author:"James Park",authorRole:"Tech Reviewer",date:"2026-04-29",readTime:"8 min read",featured:!0,coverColor:"from-emerald-600 to-green-800",image:"https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1200&h=800&fit=crop&auto=format&q=80",tags:["fitness","wellness","gear-review","standing-desk","home-office"],content:`
+export const posts: Post[] = [{slug:"best-office-chair-lower-back-pain-2026",title:"Best Office Chair for Lower Back Pain in 2026: 5 Picks That Actually Help",excerpt:"Generic 'ergonomic' marketing doesn't fix lower back pain — specific lumbar geometry does. Five chairs we'd actually buy for chronic lumbar issues, plus what to skip.",category:"Gear",author:"Tom Hadley",authorRole:"Ergonomics Specialist",date:"2026-05-05",readTime:"8 min read",featured:!0,coverColor:"from-rose-500 to-stone-700",image:"https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&h=800&fit=crop&auto=format&q=80",tags:["chairs","ergonomics","back-pain","health","gear-review"],content:`
+## Why Most "Ergonomic" Chairs Don't Help Your Back
+
+The word *ergonomic* on a product page means almost nothing. Office chair manufacturers slap it on $99 mesh chairs that have the same lumbar geometry as a kitchen stool. For someone with chronic lower back pain, the chair either *actively supports the lumbar curve* or it doesn't — and most don't.
+
+Lower back pain at a desk usually comes from one of three things:
+
+- **Loss of lumbar lordosis** — the natural inward curve of your lower spine flattens when you slouch, putting pressure on the discs between L4-L5 and L5-S1
+- **Hip flexor compression** — sitting with hips lower than knees tightens the iliopsoas and pulls the lumbar spine forward
+- **Postural fatigue** — the muscles that hold your spine upright tire after 30-90 minutes, and you collapse forward into the worst possible posture
+
+A chair that genuinely helps with back pain has to address all three. Here's what to look for, and the five that actually do.
+
+## What to Look For
+
+- **Adjustable lumbar support** — height (most important) AND firmness. The lumbar bump must align with your L3 vertebra (roughly 4 fingers above your belt line). A fixed lumbar pad is worse than no lumbar pad if it sits in the wrong spot.
+- **Forward tilt option** — letting the seat tilt forward 5-10° opens the hip angle past 90°, which preserves lumbar lordosis. This is the single biggest comfort upgrade for back-pain sufferers and few chairs offer it.
+- **Seat depth adjustment** — your thighs should clear the front edge of the seat by 2-3 fingers. Too shallow and you slide forward, too deep and circulation gets cut off behind the knees.
+- **Synchronous tilt** — the back and seat recline at different rates, keeping your thigh-to-spine angle stable. Cheap chairs use simple knee tilt that pivots from a fixed point and forces you out of position.
+- **Mesh or thin foam seat** — thick foam compresses unevenly over time, throwing alignment off. Mesh suspension or thin firm foam holds shape for years.
+
+## Top Picks for 2026
+
+### 1. Herman Miller Aeron — Best Overall
+
+The Aeron has been the gold standard since 1994 for good reason. The PostureFit SL adjustment isolates lumbar from sacral support — you can dial in firmness for the lower spine independently of the pelvis. This separation matters for chronic back pain users.
+
+- **Lumbar:** PostureFit SL with sacral + lumbar firmness adjustments
+- **Seat:** Pellicle mesh, three sizes (A/B/C) to match user height
+- **Forward tilt:** Optional — order with Tilt Limiter and Seat Angle for $200 more
+- **Warranty:** 12 years
+- **Price:** ~$1,500 new, $700-900 refurbished from authorized dealers
+
+The price is steep. Refurbished Aerons from authorized dealers (Crandall, Beverly Hills Chairs) come with 12-year warranty intact and run roughly half the new price.
+
+### 2. Steelcase Leap V2 — Best for Back Pain Specifically
+
+The Leap is the chair most physical therapists in our research recommended for users with diagnosed lumbar issues. Its LiveBack technology flexes with your spine during recline rather than fighting it, and the lower back support adjusts independently from upper back tension.
+
+- **Lumbar:** LiveBack with adjustable firmness, height-adjustable lumbar support
+- **Seat:** Soft-but-firm foam with adjustable depth and width
+- **Forward tilt:** Standard
+- **Warranty:** 12 years
+- **Price:** ~$1,400 new, $500-700 refurbished
+
+For lower back pain specifically, the Leap is the one most users describe as "I forgot about my back."
+
+### 3. HÅG Capisco — Best for Active Sitting
+
+The Capisco's saddle-style seat changes the conversation — you sit at the seat's edge with hips above knees, keeping the lumbar curve natural without effort. It's also the only chair on this list designed for both sitting AND perching/standing, which lets you change posture throughout the day.
+
+- **Lumbar:** Encourages natural lordosis through seat geometry rather than back support
+- **Seat:** Saddle-shape encouraging hip flexion ≥ 110°
+- **Forward tilt:** Built-in
+- **Warranty:** 10 years
+- **Price:** ~$1,200
+
+The Capisco is unconventional. Some users adapt instantly; others find the saddle uncomfortable. Try one before buying. For users with very tight hip flexors, it's often the only chair that genuinely fixes their lower back.
+
+### 4. Branch Verve Chair — Best Mid-Range
+
+If $1,400 is out of reach, the Branch Verve at $549 hits the affordability vs ergonomics sweet spot. It has a real height-adjustable lumbar support (rare at this price), forward tilt, and synchronous recline. The build won't last 12 years like a Steelcase, but it's a 5-7 year chair at a third of the price.
+
+- **Lumbar:** Height + depth adjustable
+- **Seat:** Foam with adjustable depth
+- **Forward tilt:** Standard
+- **Warranty:** 7 years on frame, 1 year on parts
+- **Price:** ~$549
+
+Best buy for users testing whether a real ergonomic chair changes their pain before committing to a Steelcase.
+
+### 5. IKEA MARKUS — Best Budget
+
+For $279, the MARKUS punches surprisingly above its price. The lumbar support is fixed but well-positioned, the seat depth is roomy, and the headrest is a genuinely good complement for taller users. It's not in the same league as the Steelcase or Aeron, but for users who can't justify $1,500, the MARKUS gets you 60% of the benefit at 20% of the price.
+
+- **Lumbar:** Fixed but anatomically correct for users 5'8"-6'2"
+- **Seat:** Mesh with foam reinforcement
+- **Forward tilt:** No
+- **Warranty:** 10 years (IKEA's standard)
+- **Price:** ~$279
+
+Don't expect the MARKUS to fix severe pain. For mild-to-moderate lumbar issues, it's enough.
+
+## What to Skip
+
+- **Gaming chairs with detachable lumbar pillows.** The pillow geometry is wrong — too tall, too far back, pushes lumbar into anterior tilt rather than supporting natural lordosis. See our [gaming chair vs office chair comparison](/blog/gaming-chair-vs-office-chair-for-work).
+- **Sub-$200 mesh "ergonomic" chairs from Amazon.** Lumbar is fixed, low-quality plastic mechanisms fail at 1-2 years, foam compresses, no real warranty.
+- **Saddle stools without back support** for chronic pain. They work for active sitting but offer zero support during fatigue periods.
+
+## Other Things That Help (Beyond the Chair)
+
+A chair alone won't fix back pain if other ergonomic basics are wrong. Pair it with:
+
+- **Monitor at eye level** — see our [monitor setup guide](/blog/monitor-setup-guide). Looking down strains the cervical spine and pulls the upper back into kyphosis, which compensates downstream into lumbar pain.
+- **Hourly standing breaks** — even 90 seconds of standing every hour resets disc pressure
+- **Anti-fatigue mat for standing periods** — see our [best anti-fatigue mats](/blog/best-anti-fatigue-mats-standing-desk)
+- **A quality desk at the right height** — see our [ergonomic home office setup guide](/blog/ergonomic-home-office-setup-guide)
+
+## Frequently Asked Questions
+
+**Will an expensive chair really fix my back pain?**
+Often, but not always. For pain caused by poor postural support during work hours, yes — most users report substantial improvement within 2-3 weeks of switching to a properly fitted high-end chair. For pain from a herniated disc, structural issue, or off-desk activity, the chair is part of treatment, not the cure. See a doctor first.
+
+**How long does it take to feel the difference?**
+Most users report noticeable improvement within 7-14 days. Severe chronic pain may take 4-6 weeks of consistent proper use to fully resolve.
+
+**Are kneeling chairs good for back pain?**
+For some users, yes — they enforce the natural lumbar curve through hip geometry. For users with knee or shin issues, they create new problems. Try one for a week before committing.
+
+**What's better: refurbished Aeron or new Branch Verve?**
+A certified-refurbished Aeron from an authorized dealer (Crandall) at $750 beats the Branch Verve at $549. The Aeron is just a better chair, and the Crandall warranty is intact. If you can find a refurb in good condition, take it.
+
+**Do standing desks help with back pain?**
+Indirectly. Standing all day is no better than sitting all day. The benefit is the *transition* between postures. Pair a good chair with a [standing desk converter](/blog/best-standing-desk-converter-small-spaces-2026) and alternate every 30-45 minutes for the best results.
+`},{slug:"mid-century-modern-home-office-ideas-2026",title:"Mid-Century Modern Home Office Ideas: 8 Aesthetic Setups for 2026",excerpt:"Mid-century modern is having a 2026 moment in home offices — walnut desks, mustard accents, geometric rugs. Eight design archetypes that actually work in real rooms.",category:"Workspace",author:"Mia Collins",authorRole:"Workspace Designer",date:"2026-05-04",readTime:"8 min read",featured:!1,coverColor:"from-amber-700 to-stone-800",image:"https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&h=800&fit=crop&auto=format&q=80",tags:["mid-century-modern","aesthetic","decor","home-office","workspace"],content:`
+## Why Mid-Century Modern Works for Home Offices
+
+Mid-century modern (MCM) — the design language of 1945-1965 American furniture, championed by Eames, Saarinen, Nelson, and Wegner — has aged better than almost any other design movement. Sixty years later it still reads as *intentional* and *current*, while contemporaneous styles (Mediterranean, French Provincial, postmodern) look dated.
+
+For home offices specifically, MCM has three structural advantages:
+
+- **Honest materials** — solid walnut, oak, leather, brass, wool. They wear gracefully rather than showing scratches and scuffs as damage.
+- **Restrained ornament** — clean lines, no fussy detailing. A workspace stays focus-friendly rather than visually cluttered.
+- **Functional intent** — every piece was designed to do something specific, not just look good. Desks have proper dimensions for actual writing; chairs are sized for actual humans.
+
+It also photographs beautifully on Pinterest and Instagram, which is why MCM home offices have surged in 2024-2026 social media saves.
+
+## The Core MCM Design Vocabulary
+
+Before the archetypes, here's what makes a room read as MCM rather than generic "modern":
+
+- **Wood: walnut or oak**, with visible grain. Painted or laminate wood reads as IKEA, not MCM.
+- **Tapered legs** on desks, chairs, and tables — usually splayed at a slight angle ("starburst" or "hairpin")
+- **Geometric patterns** in textiles and rugs — not florals, not chevrons
+- **Color palette** — warm neutrals (cream, oat, walnut) anchored by ONE bold accent (mustard, teal, burnt orange, or olive)
+- **Brass or aged-bronze hardware** — not chrome, not nickel
+- **Iconic lighting** — Sputnik, arc lamp, Nelson bubble pendant, or industrial-style task lamp
+
+Get those six elements right and almost any MCM space will read as cohesive.
+
+## 8 Mid-Century Modern Home Office Archetypes
+
+### 1. The Mad Men Executive Office
+
+The most recognizable MCM home office archetype. Walnut desk with brass details, leather lounge chair, low bookshelf, sputnik chandelier overhead. Think Don Draper's office, scaled to a home setting.
+
+- **Hero piece:** Walnut executive desk with tapered legs (West Elm, Article, vintage Stanley Furniture)
+- **Color palette:** Walnut + cream walls + emerald or burgundy leather accents
+- **Lighting:** Sputnik chandelier or Nelson bubble pendant
+- **Vibe:** Confident, masculine-leaning, a bit theatrical
+
+### 2. Scandi-MCM Minimal
+
+The cooler-toned cousin of full MCM. White walls, oak (not walnut) furniture, gray and natural linen accents, restrained styling. More breathing room, less ornament.
+
+- **Hero piece:** Oak Scandinavian desk like Hans Wegner-style with tapered legs
+- **Color palette:** Oak + white walls + light gray linen + natural raw wood accents
+- **Lighting:** Arc lamp (Achille Castiglioni Arco style) or simple paper-shade pendant
+- **Vibe:** Calm, focused, slightly austere
+
+### 3. California Casual MCM
+
+The Southern California take — lighter, sunnier, more relaxed. Teak instead of walnut, terracotta and burnt-orange accents, jute or sisal rug, lots of plants.
+
+- **Hero piece:** Teak desk or vintage credenza
+- **Color palette:** Teak + cream walls + burnt orange + olive green plant tones
+- **Lighting:** Brass arc lamp + filament Edison-style desk lamp
+- **Vibe:** Sun-bleached, unfussy, biophilic
+
+### 4. Eames Office Recreation
+
+Built around iconic Eames furniture. The signature Eames Lounge Chair as a reading seat, a vintage Eames Aluminum Group Management chair at the desk, simple walnut credenza behind. Hero pieces do the talking; everything else stays restrained.
+
+- **Hero pieces:** Eames Lounge + Ottoman ($6k+ new, $2-3k vintage), Eames Aluminum Group Management Chair
+- **Color palette:** Walnut + cognac leather + cream + black metal accents
+- **Lighting:** Eames LCM/LCW chair-style lamp or George Nelson bubble pendant
+- **Vibe:** Architect's office, design-history aware, investment furniture
+
+### 5. Mustard & Walnut Cozy
+
+The most accessible MCM archetype. Anchored by a saturated mustard-yellow accent (a chair, a rug, a wall) playing against walnut wood. Warm and approachable rather than formal.
+
+- **Hero piece:** Mustard velvet armchair (Article Sven, IKEA STRANDMON in mustard fabric)
+- **Color palette:** Walnut + cream + mustard + small black accents
+- **Lighting:** Warm-toned task lamp + brass floor lamp
+- **Vibe:** Cozy, lived-in, photograph-friendly
+
+### 6. Atomic Age Office
+
+Leans into the space-age 1955-1965 aesthetic. Sputnik chandelier, atomic geometric patterns in textiles, starburst clock on the wall, more stylized furniture. The most "themed" archetype on this list.
+
+- **Hero piece:** Vintage atomic clock + sputnik chandelier
+- **Color palette:** Walnut + teal or aqua + chrome + cream
+- **Lighting:** Sputnik + atomic-era task lamp
+- **Vibe:** Themed, fun, retro-curious
+
+### 7. Industrial MCM
+
+The crossover with industrial design. Walnut desk paired with a black metal frame chair, Edison filament bulbs, raw concrete or exposed-brick wall, leather-and-metal accent pieces. More masculine than other MCM variants.
+
+- **Hero piece:** Walnut top + black steel base desk (Article Madera or similar)
+- **Color palette:** Walnut + black metal + concrete gray + cognac leather
+- **Lighting:** Industrial pendants with Edison bulbs
+- **Vibe:** Loft, urban, masculine-leaning
+
+### 8. MCM Reading Nook + Office Combo
+
+Combine the home office with a reading nook in MCM style. Walnut desk on one wall, Eames-style lounge chair in the corner with floor lamp and bookshelf. See our full guide on [reading nook + office combo aesthetic ideas](/blog/reading-nook-home-office-combo-aesthetic-ideas) for the full layout playbook.
+
+- **Hero pieces:** Walnut desk + iconic lounge chair
+- **Color palette:** Walnut + cognac leather + cream + olive plant accent
+- **Lighting:** Tall arc lamp serving both zones
+- **Vibe:** Library + workspace, scholar-meets-designer
+
+## Where to Source MCM Furniture in 2026
+
+| Tier | Where | Trade-off |
+|---|---|---|
+| **High-end / authentic** | Herman Miller, Knoll, Vitra | $5,000+ for hero pieces, but they last forever and hold value |
+| **Mid-tier reproductions** | Article, West Elm, EQ3, Inside Weather | $400-1,200 for credible MCM-look furniture, 5-10 year lifespan |
+| **Budget** | IKEA (oak collections), Target Studio McGee, Wayfair | $100-400 per piece, looks the part for 3-5 years |
+| **Vintage/thrift** | Estate sales, Facebook Marketplace, Chairish | Authentic mid-century pieces at variable prices, requires patience and eye |
+
+For most home offices, mixing **one investment piece** (vintage Eames lounge chair, real Knoll desk) with **mid-tier supporting pieces** is the right balance.
+
+## Common Mistakes
+
+- **Mixing too many wood tones.** MCM looks best with one dominant wood (walnut or oak — pick one). A walnut desk + oak chair + maple shelf reads chaotic.
+- **Going too theme-y.** A space full of obvious "atomic age" props starts to feel like a movie set. Use ONE strong MCM signal (the desk, or the chair, or the lamp) and let the rest stay restrained.
+- **Wrong-era accessories.** Modern Apple monitor + walnut MCM desk is fine — that contrast works. But avoid Victorian frames or industrial farmhouse decor mixed in. Stay within the 1945-1970 aesthetic vocabulary.
+- **Using the wrong rug.** A geometric MCM rug is essential. Persian rugs, modern abstracts, or contemporary patterns break the look immediately.
+
+## A Realistic Starter Setup for Under $1,500
+
+For a believable MCM home office on a budget:
+
+- Walnut tapered-leg desk (Article Madera or vintage thrift) — $300-500
+- Mid-back office chair in cognac leather — $250-400
+- Geometric wool rug, 5×7 — $150-250
+- Brass arc floor lamp — $120-180
+- Solid walnut bookshelf or credenza (vintage thrift) — $150-300
+- Two Sansevieria or fiddle leaf fig plants in MCM-style ceramic planters — $80-120
+- One framed art piece (mid-century print or geometric pattern) — $40-80
+
+**Total: $1,090-1,830** for a credible MCM home office.
+
+## Frequently Asked Questions
+
+**Is mid-century modern still trendy in 2026?**
+Yes — and it's been "trendy" for 15+ years now, which suggests it's transitioned from trend to permanent style. Pinterest searches for "mid-century modern home office" are still climbing year-over-year.
+
+**Can MCM work in a small apartment?**
+Beautifully. MCM was designed for the small post-war American home — the proportions are compact and rooms feel less crowded than with traditional furniture. See our [small home office ideas guide](/blog/small-home-office-ideas) for compact MCM layouts.
+
+**What's the difference between mid-century modern and Scandinavian design?**
+Significant overlap (both use clean lines, natural wood, restrained ornament) but MCM tends to be more saturated/colorful, more sculptural, and more American in its accent pieces. Scandinavian is cooler, sparser, and uses oak rather than walnut.
+
+**Where do I find authentic vintage MCM furniture?**
+Estate sales (best prices but requires luck), Chairish.com (curated vintage marketplace), Facebook Marketplace (best bargains, requires patience), and 1stDibs (premium prices but verified authenticity). Avoid generic eBay and Etsy "MCM" listings — fakes are common.
+
+**Is the Eames lounge chair worth $6,000?**
+For most people, no — it's a luxury investment. A $1,200 reproduction (Article Sven, EQ3 Reverie) gets you 80% of the look without the brand premium. The real Eames is for design enthusiasts who'll keep it 30+ years and value the authenticity.
+`},{slug:"best-underdesk-treadmill-2026",title:"Best Underdesk Treadmill for 2026: Walking While You Work",excerpt:"An underdesk treadmill at 2 mph adds 8,000 steps to your day without leaving your desk. Here are the five worth buying — plus the ones to skip and how to actually use one without quitting after a week.",category:"Gear",author:"James Park",authorRole:"Tech Reviewer",date:"2026-04-29",readTime:"8 min read",featured:!0,coverColor:"from-emerald-600 to-green-800",image:"https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1200&h=800&fit=crop&auto=format&q=80",tags:["fitness","wellness","gear-review","standing-desk","home-office"],content:`
 ## Why Walking While You Work Actually Works
 
 The average remote worker walks 2,000–3,500 steps a day. The general health recommendation is 7,000–10,000. For most people, the gap doesn't get closed at the gym — it gets closed during the workday or it doesn't get closed at all.
