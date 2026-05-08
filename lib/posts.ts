@@ -14,7 +14,306 @@ export interface Post {
   tags: string[]
 }
 
-export const posts: Post[] = [{slug:"best-ergonomic-keyboard-wrist-pain-2026",title:"Best Ergonomic Keyboard for Wrist Pain in 2026: 6 Doctor-Recommended Picks",excerpt:"A standard keyboard forces your wrists into ulnar deviation and pronation — the exact two angles that cause RSI. The right ergonomic keyboard fixes both. Here are the six worth buying.",category:"Gear",author:"Tom Hadley",authorRole:"Ergonomics Specialist",date:"2026-05-07",readTime:"9 min read",featured:!0,coverColor:"from-slate-600 to-slate-900",image:"https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop&auto=format&q=80",tags:["ergonomics","keyboards","wrist-pain","rsi","split-keyboard","gear-review"],content:`
+export const posts: Post[] = [{slug:"best-office-chair-short-people-2026",title:"Best Office Chair for Short People in 2026: 6 Picks That Actually Fit",excerpt:"Most ergonomic chairs are sized for users 5'8' and up — leaving petite users dangling without lumbar support and feet that can't reach the floor. Six chairs designed for 4'10' to 5'5'.",category:"Gear",author:"Tom Hadley",authorRole:"Ergonomics Specialist",date:"2026-05-08",readTime:"8 min read",featured:!0,coverColor:"from-pink-500 to-rose-700",image:"https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&h=800&fit=crop&auto=format&q=80",tags:["chairs","ergonomics","petite-users","short-users","gear-review"],content:`
+## Why Standard Office Chairs Fail Short Users
+
+Most "ergonomic" office chair reviews assume a user 5'8" to 6'2" — the median range chair manufacturers design around. For users under 5'5", that means an ill-fitting chair that *causes* the very problems ergonomic chairs are supposed to prevent:
+
+- **Seat too deep** — your knees can't bend at the seat edge, so you slide forward and lose lumbar contact
+- **Lumbar bump too high** — designed for a 5'10" spine, it lands on your shoulder blades instead of your lower back
+- **Armrests too high or wide** — even fully lowered, they hike your shoulders into a permanent shrug
+- **Feet dangling** — the seat-pan minimum height on most chairs is 17-18 inches; if your knees bend at less than 90° you get hip flexor compression and circulation cutoff
+- **Headrest at neck level** — pushes your head forward into a permanent forward-head posture
+
+The fix isn't a footrest under a too-tall chair (though footrests help). It's a chair specifically engineered with shorter seat heights, shallower seat pans, and lumbar support that adjusts low enough to actually hit your lumbar spine.
+
+This is the **best office chair for short people** guide for 2026 — six options across price tiers built around a 4'10" to 5'5" user, plus what to look for and how to set it up correctly.
+
+## What to Look For
+
+Five specs that matter most for petite users:
+
+- **Minimum seat height** — must reach **15.5 inches or lower**. Standard chairs start at 17-19 inches, leaving feet dangling.
+- **Seat depth** — must adjust to **15-17 inches** (or come in a small/petite size). Standard 19-21 inch depth pushes shorter legs forward.
+- **Lumbar support height range** — must adjust as low as **6-8 inches above seat**. Fixed lumbar at 10+ inches sits on the wrong vertebrae.
+- **Armrest height range** — must drop low enough that elbows rest at 90° with relaxed shoulders. For a 5'2" user with a typical desk, that's about **6-7 inches above seat**.
+- **Backrest height** — petite-specific chairs often have lower backrests sized for shorter torsos. The headrest, when present, should hit at the back of the head, not the neck.
+
+## Top 6 Office Chairs for Short People in 2026
+
+### 1. Herman Miller Aeron Size A — Best Overall
+
+The Aeron's secret for petite users: **it comes in three sizes (A, B, C)**. Most reviews ignore that the Size A is purpose-built for users 4'10" to 5'4" with a max user weight of 300 lbs. Same PostureFit lumbar system, same Pellicle mesh, just sized for shorter spines and shallower seat pans.
+
+- **Min seat height:** 14.75"
+- **Seat depth:** 16.75"
+- **Lumbar:** PostureFit SL, adjusts down to 6" above seat
+- **Best for users:** 4'10" to 5'4"
+- **Warranty:** 12 years
+- **Price:** ~$1,500 new, $700-900 refurbished
+
+The Size A solves more petite-user complaints than any other chair on this list. Worth the price for full-time users.
+
+### 2. Steelcase Leap V2 — Best Petite Adjustability
+
+The Leap doesn't come in size variants like the Aeron, but its built-in adjustability covers shorter users better than most chairs in its class. Seat pan slides forward to reduce depth; lumbar drops low enough for petite spines.
+
+- **Min seat height:** 15.5"
+- **Seat depth:** Adjusts from 15.75" to 18.75"
+- **Lumbar:** LiveBack with adjustable height + firmness
+- **Best for users:** 5'0" to 5'7" (with proper adjustment)
+- **Warranty:** 12 years
+- **Price:** ~$1,400 new, $500-700 refurbished
+
+Best for users right at the borderline (5'2" to 5'6") who would size-out of the Aeron Size A on the upper end.
+
+### 3. Branch Verve — Best Mid-Range
+
+If $1,500 is too steep, the Branch Verve at $549 fits petite users surprisingly well. The seat-depth slider takes 4 inches off the depth — bringing it to a usable 15.75" minimum — and the lumbar drops far enough for shorter torsos.
+
+- **Min seat height:** 16"
+- **Seat depth:** Adjusts to 15.75" minimum
+- **Lumbar:** Adjustable height (6-9" range above seat)
+- **Best for users:** 5'0" to 5'5"
+- **Warranty:** 7 years
+- **Price:** ~$549
+
+Best price-to-adjustability ratio for petite users. Test before committing if you're under 5'0".
+
+### 4. Hbada Ergonomic Office Chair (Petite) — Best Budget
+
+Hbada makes a chair specifically marketed for petite users (5'0" to 5'5") at a quarter of the Aeron's price. Build quality is fair (not premium), but the dimensions are correct out of the box.
+
+- **Min seat height:** 14.5"
+- **Seat depth:** 15"
+- **Lumbar:** Fixed but at correct petite height
+- **Best for users:** 4'11" to 5'5"
+- **Warranty:** 1 year
+- **Price:** ~$179
+
+Best "test if a petite chair changes your pain" purchase. Upgrade later if it works.
+
+### 5. HÅG Capisco Puls — Best Active Sitting
+
+The Capisco Puls is the smaller version of the standard Capisco. Its saddle-style seat raises hip angle past 110° regardless of user height, eliminating the "feet dangling" problem because you naturally perch rather than fully sit.
+
+- **Min seat height:** 14"
+- **Seat depth:** Saddle (depth not relevant)
+- **Lumbar:** Encourages natural posture via seat geometry
+- **Best for users:** 4'11" to 5'4"
+- **Warranty:** 10 years
+- **Price:** ~$1,200
+
+Unconventional but works brilliantly for petite users with chronic posture issues. Try one before buying — saddle seating divides users.
+
+### 6. IKEA JÄRVFJÄLLET (small adjustment) — Best Sub-$300
+
+Not marketed for petite users, but the JÄRVFJÄLLET happens to have one of the lowest minimum seat heights in IKEA's lineup (~16") and the seat depth is on the shorter side. Pair it with a footrest for users under 5'2" and it's the best chair under $300.
+
+- **Min seat height:** 16"
+- **Seat depth:** 16.5"
+- **Lumbar:** Adjustable height
+- **Best for users:** 5'1" to 5'5"
+- **Warranty:** 10 years (IKEA standard)
+- **Price:** ~$249
+
+Strong "first ergonomic chair" pick for users under 5'5" working from home a few hours a day.
+
+## Setup Tips for Petite Users
+
+A petite-sized chair only helps if you set it up correctly:
+
+- **Set seat height first.** Knees should bend at 90° with feet flat on the floor. If the chair won't go low enough, add a [footrest](/blog/best-office-chair-mat) under the desk so feet have firm support.
+- **Set seat depth next.** Slide the seat forward until you have 2-3 fingers of clearance between your calves and the seat front edge. Too deep and you slide forward; too shallow and your thighs aren't supported.
+- **Lumbar last.** Lumbar bump should hit your L3 vertebra — roughly 4 fingers above your belt line. For most petite users, this means dropping the lumbar to its lowest setting.
+- **Armrests:** Lower until your elbows can rest naturally with shoulders relaxed. Many petite users find armrests need to be at or near their lowest setting.
+
+For the broader ergonomic principles, see our [ergonomic home office setup guide](/blog/ergonomic-home-office-setup-guide).
+
+## What About Tall Users?
+
+We have a dedicated guide for the opposite problem: [best office chair for tall people](/blog/best-office-chair-for-tall-people). Many of the chairs on that list are NOT good for petite users (Aeron Size C is too large; some chairs only come in single sizes). Always check the user-height range before buying.
+
+## Other Things Petite Users Should Consider
+
+- **Desk height** — standard 29" desks are too high for many petite users. A height-adjustable desk lets you drop it to 25-27" so your forearms stay parallel to the floor. See our [standing desk converter guide](/blog/best-standing-desk-converter-small-spaces-2026).
+- **Monitor height** — top of monitor should land at eye level. Petite users often need their monitor LOWER than the standard mount allows. See our [monitor setup guide](/blog/monitor-setup-guide).
+- **Keyboard tray** — under-desk keyboard trays help drop typing height by 2-3 inches, which compensates for desks that are too tall to lower.
+- **Footrest** — even with a properly-fitted petite chair, a footrest can improve comfort during long sessions by allowing position changes.
+
+## Frequently Asked Questions
+
+**What's the best office chair for someone under 5'0"?**
+The **Herman Miller Aeron Size A** (4'10" to 5'4" range) and **HÅG Capisco Puls** (4'11" to 5'4") are the two chairs explicitly designed for users under 5'0". Both have minimum seat heights at or below 14.75".
+
+**Will a footrest fix a chair that's too tall?**
+Partially. A footrest gives your feet firm support and reduces hip-flexor strain, but doesn't fix the seat-depth problem (you'll still slide forward) or the lumbar height problem (still on the wrong vertebrae). It's a workaround, not a solution.
+
+**Are gaming chairs good for short users?**
+Generally no. Most gaming chairs have minimum seat heights of 18+ inches and deep bucket seats designed for taller users. The Secretlab Classic (smaller variant of the Titan) is the exception — fits users 5'0" to 5'7".
+
+**Can I make a too-deep seat work with a back cushion?**
+Yes — a firm lumbar pillow at the right height can fill the gap behind your back so you can sit fully back without sliding. It's a workaround that doesn't fully solve the problem, but it makes a borderline chair usable.
+
+**How long does a petite ergonomic chair last?**
+Premium chairs (Herman Miller, Steelcase) last 12+ years and hold value. Mid-range chairs (Branch, Hbada) last 5-7 years. Budget chairs typically need replacement at 2-3 years.
+
+**Should petite users avoid mesh chairs?**
+No — mesh works great for petite users when the chair size is correct. The Aeron Size A is mesh-based and fits petite spines well. Only avoid mesh if it's stretched too taut for a petite user's lighter weight (rare in well-engineered chairs).
+`},{slug:"boho-home-office-decor-ideas-2026",title:"Boho Home Office Decor Ideas: 8 Aesthetic Setups for a Creative Workspace in 2026",excerpt:"Boho home office decor — woven textures, plants everywhere, warm earth tones, vintage finds — turns a workspace into a creative sanctuary. Eight design archetypes that actually look intentional.",category:"Workspace",author:"Mia Collins",authorRole:"Workspace Designer",date:"2026-05-08",readTime:"8 min read",featured:!1,coverColor:"from-amber-500 to-rose-700",image:"https://images.unsplash.com/photo-1512820790803-83ca734da794?w=1200&h=800&fit=crop&auto=format&q=80",tags:["boho","aesthetic","decor","home-office","bohemian","creative-workspace"],content:`
+## What Makes a Home Office Boho
+
+**Boho** (short for *bohemian*) is the design language of layered textures, organic materials, vintage finds, and a deliberate rejection of matching-set furniture. For a home office, boho delivers something most other aesthetics can't: a workspace that feels like a creative sanctuary rather than a corporate cubicle.
+
+Three things distinguish a real boho home office from a generic one:
+
+- **Layered textures** — woven rugs, macramé wall hangings, jute baskets, woven accent pillows, raw wood. Multiple textures stacked rather than smooth surfaces everywhere.
+- **Plants — lots of them** — boho is the only aesthetic where 5-10 plants in a single room reads correct rather than cluttered. Trailing pothos, hanging spider plants, fiddle leaf figs, snake plants, succulents.
+- **Vintage and handmade pieces** — at least one antique item, one handmade item, and one item from your travels (or that looks like it). Mass-produced "boho" decor sets read fake instantly.
+
+Boho home office search volume on Pinterest has been climbing steadily — a 2026 saved-pin study showed boho workspaces in the top three saved aesthetics, alongside Japandi and mid-century modern.
+
+## The Boho Color Palette
+
+Boho is warmer and earthier than other workspace aesthetics:
+
+- **Warm whites and creams** as the base
+- **Earth tones** — terracotta, rust, ochre, sand, deep brown
+- **Muted greens** — olive, sage, eucalyptus
+- **Burnt orange and dusty pink** as accent saturated colors
+- **Black** sparingly — usually in a wrought iron piece or framed art
+- **Brass and aged-metal hardware** rather than chrome
+
+Notably absent: bright primary colors, cool grays, anything that reads "industrial" or "corporate."
+
+## 8 Boho Home Office Design Archetypes
+
+### 1. Plant-Forward Boho
+
+The most iconic boho variant. Plants everywhere — hanging from ceilings, trailing down shelves, perched on the desk, forming a small jungle behind the chair. The desk is the focal point but the plants are the soul.
+
+- **Hero pieces:** Vintage wood desk + macramé hanging planters + 5-8 plants minimum
+- **Color palette:** Cream + terracotta pots + olive/jade green plants
+- **Lighting:** Brass arc lamp + small string lights threaded through plants
+- **Vibe:** Indoor jungle, creative writer's nook
+
+### 2. Moroccan Boho
+
+Inspired by Marrakech. Patterned tile-style rug, brass accents, ornate metal lanterns, leather pouf as a footrest, deep saturated colors layered onto cream base.
+
+- **Hero pieces:** Wooden writing desk + Moroccan tile-pattern rug + leather pouf
+- **Color palette:** Cream + deep red + burnt orange + brass
+- **Lighting:** Pierced-metal Moroccan lantern as task light + warm string lights
+- **Vibe:** Travel-inspired, exotic, atmospheric
+
+### 3. Vintage Eclectic Boho
+
+A celebration of mismatch — every piece looks like it has a story. Vintage typewriter on the desk (decorative), antique chair, framed travel postcards, handwoven rug, brass lamp from an estate sale.
+
+- **Hero pieces:** Antique writing desk + vintage chair (different era from desk on purpose)
+- **Color palette:** Cream + warm browns + faded pastels
+- **Lighting:** Brass desk lamp from a thrift store + vintage table lamp
+- **Vibe:** Antique shop / writer's office / personal museum
+
+### 4. Earthy Modern Boho
+
+The most contemporary variant. Modern furniture with boho textures and plants — a clean-line desk paired with a chunky wool rug, a trailing pothos in a stoneware planter, terracotta on the wall.
+
+- **Hero pieces:** Modern oak desk + woven natural fiber chair (rattan or cane)
+- **Color palette:** Cream + terracotta + olive + raw wood
+- **Lighting:** Linen-shade pendant + warm task lamp
+- **Vibe:** Modern boho, IG-friendly, less cluttered
+
+### 5. Cozy Reading Nook Boho (with desk)
+
+A boho desk paired with a reading lounge area — floor cushions on a vintage rug, a low table for books, a tall floor lamp shared between zones. See our broader playbook in [reading nook + office combo](/blog/reading-nook-home-office-combo-aesthetic-ideas).
+
+- **Hero pieces:** Wooden writing desk + low Moroccan-style cushion seating in corner
+- **Color palette:** Cream + dusty rose + deep brown + olive
+- **Lighting:** Tall paper lantern floor lamp serving both zones
+- **Vibe:** Reading retreat, scholarly + bohemian
+
+### 6. Macramé and Woven
+
+Anchored by a large macramé wall hanging (3+ feet wide) above the desk. The macramé is the focal point; everything else stays restrained to support it.
+
+- **Hero pieces:** Simple wooden desk + large macramé wall hanging behind
+- **Color palette:** Cream + natural rope/jute tones + single accent (sage green or rust)
+- **Lighting:** Brass swing-arm wall lamp
+- **Vibe:** Pinterest-classic boho, dorm-graduate aesthetic refined
+
+### 7. Coastal Boho
+
+Boho meets coastal. Lighter, breezier — sun-bleached driftwood, macramé in white only, sea-glass colors, jute and seagrass textures throughout.
+
+- **Hero pieces:** Whitewashed wood desk + rattan chair
+- **Color palette:** Warm white + sand + sea-glass blue + driftwood gray
+- **Lighting:** Woven natural-fiber pendant + linen-shade task lamp
+- **Vibe:** Tulum / Mediterranean coast meets home office
+
+### 8. Cloffice Boho
+
+The closet-office variation in boho style. Particularly satisfying because boho's layered approach uses small spaces well — every inch becomes a textured canvas. See our [cloffice setup guide](/blog/cloffice-setup-tiny-home-office-closet) for the structural conversion.
+
+- **Hero pieces:** Custom-cut wooden plank desk + trailing plants on shelves
+- **Color palette:** Cream walls + earth tones + brass accents
+- **Lighting:** Warm string lights along the closet trim + small desk lamp
+- **Vibe:** Hidden creative cave
+
+## Materials and Where to Source
+
+| Tier | Where | Notes |
+|---|---|---|
+| **Vintage / authentic** | Estate sales, thrift stores, eBay, Chairish | Best for one-of-a-kind pieces; price varies wildly. The hunt is the point. |
+| **Mid-tier** | Anthropologie, Urban Outfitters Home, World Market, Magnolia Home | $200-800 per piece, looks the part, lots of textiles |
+| **Budget** | Target Studio McGee, IKEA + boho throw pillows, H&M Home | $30-200 per piece, easy to assemble a starter look |
+| **Handmade** | Etsy macramé and weavings, local artisans, craft fairs | Single handmade piece elevates an entire room |
+
+For a credible budget boho home office under $700:
+- IKEA INGO solid pine desk — $130
+- Vintage-look upholstered chair (thrift or Wayfair) — $180
+- Jute or wool round rug, 6-foot — $100
+- Large macramé wall hanging — $60-100
+- 5-7 small plants in terracotta pots — $80-120
+- Brass swing-arm wall lamp — $90
+- Throw pillow + linen runner + ceramic mug — $50
+
+**Total: $690-810** for a complete boho home office.
+
+## Common Mistakes
+
+- **Buying a "boho decor set" off Amazon.** Mass-produced matching boho pieces read instantly fake. Boho lives on mismatch.
+- **Plants in plastic pots.** Use terracotta, ceramic, woven baskets, or stoneware. Plastic kills the look.
+- **Too much color.** Boho is earth tones + ONE saturated accent (rust OR dusty pink OR olive — pick one). Multiple bright colors stop reading as boho and start reading as chaotic.
+- **Modern furniture with no texture.** A sleek IKEA white desk doesn't become boho just by adding plants. The desk itself needs visible grain, vintage character, or natural finish.
+- **Forgetting the rug.** Boho lives on layered textures, and a rug is the most impactful texture in the room. Skipping it leaves the aesthetic flat.
+
+## Common Mistakes Specific to Plants
+
+- **Don't buy plants you can't keep alive.** Sansevieria, pothos, ZZ plants, and snake plants are nearly indestructible. Calatheas and ferns will die in a week without specific care.
+- **One large statement plant beats 10 small struggling ones.** A single 6-foot fiddle leaf or rubber plant in a beautiful terracotta pot creates more impact than 10 small succulents on a windowsill.
+- **Group plants in odd numbers.** Three plants on a shelf reads designed; four reads symmetrical and boring.
+
+## Frequently Asked Questions
+
+**Is boho good for productivity?**
+For some users, very much yes — the layered comfort and natural materials reduce the "corporate cubicle" feeling that drains creative work. For users who need stark minimalism to focus, boho can feel cluttered. Test for a week.
+
+**How is boho different from "cottagecore"?**
+Boho leans more global/eclectic with travel-inspired pieces, vintage finds, and layered patterns. Cottagecore is more pastoral/European with floral patterns, antique milk glass, and rural charm. Significant overlap but different sources of inspiration.
+
+**Can I do boho in a small apartment?**
+Beautifully — small spaces actually suit boho because the layered textures fill rooms naturally. See our [small home office ideas](/blog/small-home-office-ideas) for compact layouts. Just be careful with plant volume in low-light apartments.
+
+**Where do I find authentic vintage pieces?**
+Estate sales (best prices), Facebook Marketplace (best bargains, requires patience), Chairish (curated vintage, premium prices), and local antique shops. Avoid generic Amazon "vintage-look" reproductions — they read fake.
+
+**Is boho still trendy in 2026?**
+Yes — boho has been a steady top-five Pinterest aesthetic for over a decade now. Like Mid-Century Modern, it's transitioned from trend to permanent style. Pinterest searches for boho home office are up year-over-year.
+
+**What plants are best for a boho home office without much sunlight?**
+Snake plant (Sansevieria), ZZ plant, pothos, philodendron, and cast iron plant tolerate low light and look the part. Avoid fiddle leaf figs and succulents in low-light rooms — they'll die. See our [desk plants for focus guide](/blog/desk-plants-for-focus) for picks.
+`},{slug:"best-ergonomic-keyboard-wrist-pain-2026",title:"Best Ergonomic Keyboard for Wrist Pain in 2026: 6 Doctor-Recommended Picks",excerpt:"A standard keyboard forces your wrists into ulnar deviation and pronation — the exact two angles that cause RSI. The right ergonomic keyboard fixes both. Here are the six worth buying.",category:"Gear",author:"Tom Hadley",authorRole:"Ergonomics Specialist",date:"2026-05-07",readTime:"9 min read",featured:!0,coverColor:"from-slate-600 to-slate-900",image:"https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop&auto=format&q=80",tags:["ergonomics","keyboards","wrist-pain","rsi","split-keyboard","gear-review"],content:`
 ## Why Standard Keyboards Cause Wrist Pain
 
 If you type 4+ hours a day on a flat, rectangular keyboard, your wrists are held in two unnatural positions for hours at a time:
