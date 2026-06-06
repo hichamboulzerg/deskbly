@@ -15,6 +15,16 @@ export async function generateMetadata(props: PageProps<'/blog/tag/[tag]'>): Pro
     title: `#${tag}`,
     description: `All Deskbly articles tagged with ${tag}.`,
     alternates: { canonical: `https://deskbly.com/blog/tag/${tag}` },
+    openGraph: {
+      title: `#${tag} | Deskbly`,
+      description: `All Deskbly articles tagged with ${tag}.`,
+      url: `https://deskbly.com/blog/tag/${tag}`,
+    },
+    twitter: {
+      card: 'summary',
+      title: `#${tag} | Deskbly`,
+      description: `All Deskbly articles tagged with ${tag}.`,
+    },
   }
 }
 

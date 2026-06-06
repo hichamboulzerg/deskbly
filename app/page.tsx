@@ -1,7 +1,29 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getAllPosts, getFeaturedPosts, getAllCategories, formatDate } from '@/lib/posts'
 import PostCard from '@/components/PostCard'
 import { ArrowRight, TrendingUp, Zap, BookOpen } from 'lucide-react'
+
+const BASE_URL = 'https://deskbly.com'
+const OG_IMAGE = 'https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200&h=630&fit=crop&auto=format&q=80'
+
+export const metadata: Metadata = {
+  alternates: { canonical: BASE_URL },
+  openGraph: {
+    type: 'website',
+    siteName: 'Deskbly',
+    title: 'Deskbly — Workspace Ideas Worth Stealing',
+    description: 'Gear reviews, workspace design, and productivity habits for people who care about where they work.',
+    url: BASE_URL,
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'Deskbly — Workspace Ideas' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Deskbly — Workspace Ideas Worth Stealing',
+    description: 'Gear reviews, workspace design, and productivity habits for people who care about where they work.',
+    images: [OG_IMAGE],
+  },
+}
 
 export default function HomePage() {
   const featured = getFeaturedPosts()
@@ -12,7 +34,22 @@ export default function HomePage() {
   const latest = allPosts.filter((p) => !p.featured).slice(0, 6)
   const sidebarPosts = allPosts.slice(0, 4)
 
+  const websiteJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Deskbly',
+    url: BASE_URL,
+    description: 'Gear reviews, workspace design, and productivity habits for people who care about where they work.',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: `${BASE_URL}/search?q={search_term_string}` },
+      'query-input': 'required name=search_term_string',
+    },
+  }
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
     <div className="bg-stone-50">
 
       {/* ── HERO ── */}
@@ -20,6 +57,10 @@ export default function HomePage() {
         <img
           src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1800&h=900&fit=crop&auto=format&q=80"
           alt="Home office"
+          width={1800}
+          height={900}
+          loading="eager"
+          fetchPriority="high"
           className="absolute inset-0 w-full h-full object-cover opacity-25"
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
@@ -146,5 +187,6 @@ export default function HomePage() {
       </section>
 
     </div>
+    </>
   )
 }

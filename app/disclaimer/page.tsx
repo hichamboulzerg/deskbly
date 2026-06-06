@@ -5,6 +5,16 @@ export const metadata: Metadata = {
   title: 'Disclaimer',
   description: 'Important information about the nature of content published on Deskbly.',
   alternates: { canonical: 'https://deskbly.com/disclaimer' },
+  openGraph: {
+    title: 'Disclaimer | Deskbly',
+    description: 'Important information about the nature of content published on Deskbly.',
+    url: 'https://deskbly.com/disclaimer',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Disclaimer | Deskbly',
+    description: 'Important information about the nature of content published on Deskbly.',
+  },
 }
 
 const sections = [

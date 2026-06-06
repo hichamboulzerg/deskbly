@@ -9,6 +9,11 @@ export const metadata: Metadata = {
     description: 'Browse all Deskbly articles on workspace design, gear reviews, and productivity.',
     url: 'https://deskbly.com/blog',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'All Articles | Deskbly',
+    description: 'Browse all Deskbly articles on workspace design, gear reviews, and productivity.',
+  },
 }
 
 export default function BlogLayout({ children }: { children: React.ReactNode }) {

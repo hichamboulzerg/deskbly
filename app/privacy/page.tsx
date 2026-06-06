@@ -5,6 +5,16 @@ export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'How Deskbly collects, uses, and protects your personal information.',
   alternates: { canonical: 'https://deskbly.com/privacy' },
+  openGraph: {
+    title: 'Privacy Policy | Deskbly',
+    description: 'How Deskbly collects, uses, and protects your personal information.',
+    url: 'https://deskbly.com/privacy',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Privacy Policy | Deskbly',
+    description: 'How Deskbly collects, uses, and protects your personal information.',
+  },
 }
 
 const sections = [

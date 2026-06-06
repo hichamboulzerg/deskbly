@@ -11,6 +11,11 @@ export const metadata: Metadata = {
     description: 'Meet the Deskbly team — writers and researchers passionate about better workspaces.',
     url: 'https://deskbly.com/about',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Us | Deskbly',
+    description: 'Meet the Deskbly team — writers and researchers passionate about better workspaces.',
+  },
 }
 
 const team = [
@@ -131,7 +136,7 @@ export default function AboutPage() {
           {team.map((m) => (
             <div key={m.name} className="bg-white rounded-2xl overflow-hidden border border-stone-200 hover:shadow-lg transition-shadow">
               <div className="h-52 overflow-hidden">
-                <img src={m.photo} alt={m.name} className="w-full h-full object-cover object-top" />
+                <img src={m.photo} alt={m.name} width={400} height={208} loading="lazy" className="w-full h-full object-cover object-top" />
               </div>
               <div className="p-5">
                 <h3 className="font-bold text-lg text-stone-900 mb-0.5" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>

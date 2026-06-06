@@ -95,7 +95,7 @@ export default function ArchivePage() {
                         className="group flex items-center gap-3 py-2.5 px-4 rounded-xl hover:bg-white dark:hover:bg-stone-900 border border-transparent hover:border-stone-200 dark:hover:border-stone-800 transition-all"
                       >
                         <div className="shrink-0 w-10 h-10 rounded-xl overflow-hidden">
-                          <img src={post.image} alt="" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
+                          <img src={post.image} alt={post.title} width={40} height={40} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
                         </div>
                         <div className="flex-1 min-w-0">
                           <p className="text-sm font-semibold text-stone-800 dark:text-stone-200 group-hover:text-orange-600 transition-colors line-clamp-1">

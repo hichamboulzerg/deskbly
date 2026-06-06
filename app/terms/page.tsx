@@ -5,6 +5,16 @@ export const metadata: Metadata = {
   title: 'Terms of Service',
   description: 'The terms and conditions governing your use of the Deskbly website.',
   alternates: { canonical: 'https://deskbly.com/terms' },
+  openGraph: {
+    title: 'Terms of Service | Deskbly',
+    description: 'The terms and conditions governing your use of the Deskbly website.',
+    url: 'https://deskbly.com/terms',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Terms of Service | Deskbly',
+    description: 'The terms and conditions governing your use of the Deskbly website.',
+  },
 }
 
 const sections = [

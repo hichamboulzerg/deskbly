@@ -17,6 +17,18 @@ export async function generateMetadata(props: PageProps<'/authors/[slug]'>) {
     title: author.name,
     description: `Articles by ${author.name}, ${author.role} at Deskbly.`,
     alternates: { canonical: `https://deskbly.com/authors/${author.slug}` },
+    openGraph: {
+      title: `${author.name} | Deskbly`,
+      description: `Articles by ${author.name}, ${author.role} at Deskbly.`,
+      url: `https://deskbly.com/authors/${author.slug}`,
+      images: [{ url: author.photo, width: 400, height: 400, alt: author.name }],
+    },
+    twitter: {
+      card: 'summary',
+      title: `${author.name} | Deskbly`,
+      description: `Articles by ${author.name}, ${author.role} at Deskbly.`,
+      images: [author.photo],
+    },
   }
 }
 
@@ -40,6 +52,9 @@ export default async function AuthorPage(props: PageProps<'/authors/[slug]'>) {
             <img
               src={author!.photo}
               alt={author!.name}
+              width={96}
+              height={96}
+              loading="eager"
               className="w-24 h-24 rounded-2xl object-cover object-top shrink-0"
             />
             <div>
