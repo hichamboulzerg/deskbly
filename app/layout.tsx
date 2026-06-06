@@ -58,6 +58,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3351269083471753"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-GZZH9VS5EK"
           strategy="afterInteractive"
         />

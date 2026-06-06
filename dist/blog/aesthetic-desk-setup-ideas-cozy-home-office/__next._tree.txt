@@ -5,4 +5,4 @@
 :HL["https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&auto=format&q=80","image"]
 :HL["https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200&h=800&fit=crop&auto=format&q=80","image"]
 :HL["https://images.unsplash.com/photo-1512820790803-83ca734da794?w=1200&h=800&fit=crop&auto=format&q=80","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"blog","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"aesthetic-desk-setup-ideas-cozy-home-office","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"dpuwS8v0Zpjs2em7r9PDe"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"blog","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"aesthetic-desk-setup-ideas-cozy-home-office","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"a-VH1kUek_-c1pdAmUq4o"}
