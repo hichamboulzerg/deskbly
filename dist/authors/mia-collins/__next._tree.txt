@@ -19,4 +19,4 @@
 :HL["https://images.unsplash.com/photo-1623479322729-28b25c16b011?w=1200&h=800&fit=crop&auto=format&q=80","image"]
 :HL["https://images.unsplash.com/photo-1616627547584-bf28cee262db?w=1200&h=800&fit=crop&auto=format&q=80","image"]
 :HL["https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=1200&h=800&fit=crop&auto=format&q=80","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"authors","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"mia-collins","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"a-VH1kUek_-c1pdAmUq4o"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"authors","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"mia-collins","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"-oRubI1lZnsWMUgO4jyoQ"}

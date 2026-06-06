@@ -45,6 +45,9 @@ export const metadata: Metadata = {
     description: 'Gear reviews, workspace design, and productivity habits for people who care about where they work.',
     images: ['https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200&h=630&fit=crop&auto=format&q=80'],
   },
+  other: {
+    'google-adsense-account': 'ca-pub-3351269083471753',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
